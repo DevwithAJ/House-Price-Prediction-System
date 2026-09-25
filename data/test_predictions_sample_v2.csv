@@ -1,0 +1,751 @@
+location,locality_hint,society,property_type,bhk,area_sqft,current_floor,total_floors,bathrooms,balconies,parking,transaction,furnishing,facing,ownership,overlooking,actual_price,predicted_price,absolute_error
+bhiwadi,alwar bhiwadi road,unknown,apartment,2.0,1260.0,2.0,14.0,2.0,2.0,,new property,semi-furnished,north,leasehold,garden/park,4800000.0,3581631.881173368,1218368.118826632
+agra,shastri puram,shri tulsi meenar,apartment,3.0,1328.0,5.0,5.0,2.0,2.0,1.0,resale,semi-furnished,east,freehold,garden/park,6200000.0,5378737.165014384,821262.8349856157
+mohali,sector 126,sbp homes 3,apartment,2.0,1365.0,2.0,8.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,3800000.0,4366818.911318329,566818.9113183292
+pune,bavdhan,unknown,apartment,3.0,1250.0,6.0,12.0,3.0,2.0,,resale,unfurnished,east,co-operative society,"garden/park, main road",14300000.0,14602103.100523228,302103.1005232278
+surat,althan,aagam heights,apartment,4.0,1992.0,1.0,5.0,4.0,2.0,,resale,furnished,east,co-operative society,"pool, garden/park",13000000.0,14081083.608270608,1081083.608270608
+dehradun,dehrakhas,capital paradise,apartment,3.0,1009.0,1.0,9.0,3.0,3.0,1.0,new property,semi-furnished,north,freehold,main road,8700000.0,7287894.622339588,1412105.3776604123
+patna,danapur khagaul road,unknown,apartment,3.0,968.0,2.0,4.0,2.0,3.0,1.0,new property,semi-furnished,north - west,freehold,main road,7359999.999999999,7103727.739680242,256272.26031975728
+chennai,ambattur,unknown,apartment,2.0,940.0,2.0,3.0,2.0,2.0,1.0,new property,unfurnished,north,freehold,main road,5200000.0,5998118.694265164,798118.6942651644
+noida,mahagun mywoods noida extension,unknown,apartment,2.0,1100.0,23.0,25.0,2.0,4.0,1.0,resale,semi-furnished,east,leasehold,main road,5600000.0,5224105.979326349,375894.02067365125
+kolkata,new town,unknown,apartment,3.0,1100.0,2.0,10.0,2.0,1.0,1.0,resale,unfurnished,south - east,freehold,main road,9000000.0,9436341.685919559,436341.68591955863
+jaipur,ajmer road,unknown,apartment,3.0,1500.0,2.0,3.0,3.0,,,resale,furnished,unknown,unknown,unknown,3400000.0,5026408.289125637,1626408.2891256372
+kolkata,eastern metropolitan bypass,siddha sky,apartment,4.0,2965.0,21.0,29.0,3.0,3.0,1.0,new property,unfurnished,south,freehold,main road,35000000.0,41014767.85887186,6014767.858871862
+guwahati,rukmini gaon,unknown,apartment,3.0,1560.0,7.0,7.0,3.0,2.0,1.0,resale,unfurnished,north - east,freehold,main road,7500000.0,7655774.463278589,155774.46327858884
+greater-noida,yamuna expressway,solitairian city,apartment,2.0,700.0,10.0,20.0,2.0,3.0,1.0,new property,semi-furnished,north - east,leasehold,"garden/park, main road",4900000.0,4681399.487460866,218600.51253913436
+visakhapatnam,pothinamallayya palem,unknown,apartment,2.0,1666.0,0.0,2.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4200000.0,8165325.573024135,3965325.573024135
+noida,ace divino noida extension,unknown,apartment,3.0,1365.0,1.0,24.0,3.0,3.0,1.0,new property,unfurnished,west,leasehold,"garden/park, pool, main road",13100000.0,13504265.222197317,404265.2221973166
+agra,dayal bagh,unknown,apartment,2.0,1150.0,0.0,6.0,2.0,,1.0,resale,unfurnished,west,freehold,unknown,3500000.0,4523579.8737673815,1023579.8737673815
+hyderabad,vasavi emerald malakpet nh 9,unknown,apartment,2.0,1107.0,2.0,5.0,2.0,1.0,,resale,semi-furnished,unknown,unknown,unknown,5500000.0,6142596.301498145,642596.3014981449
+chennai,sowcarpet,unknown,apartment,4.0,1800.0,2.0,5.0,3.0,2.0,,resale,furnished,unknown,unknown,unknown,11700000.0,14099533.321151903,2399533.321151903
+ahmedabad,bimanagar ambawadi,azad apartment,apartment,3.0,990.0,,,2.0,,,resale,furnished,unknown,unknown,unknown,2640000.0,6051212.269347695,3411212.2693476947
+hyderabad,mantri celestia gachibowli,unknown,apartment,3.0,2400.0,3.0,24.0,3.0,2.0,,resale,semi-furnished,east,freehold,pool,17000000.0,24519480.909987777,7519480.9099877775
+kolkata,shibpur,unknown,apartment,2.0,965.0,1.0,3.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4000000.0,4261472.222410245,261472.22241024487
+pune,bhamboli,aapla ghar chakan talegaon,apartment,1.0,376.0,2.0,8.0,1.0,1.0,,resale,unfurnished,north - west,freehold,"garden/park, main road",2200000.0,3035060.7271058587,835060.7271058587
+noida,panchsheel greens 2 noida extension,unknown,apartment,2.0,697.0,23.0,25.0,2.0,3.0,1.0,new property,unfurnished,north - east,leasehold,"garden/park, pool, main road",6500000.0,5459597.069218708,1040402.9307812918
+pune,koregaon park,ganga carnation,apartment,3.0,1100.0,4.0,10.0,3.0,2.0,1.0,resale,semi-furnished,east,co-operative society,"garden/park, pool, main road",16000000.0,12224444.556778487,3775555.443221513
+kolkata,topsia road,unknown,apartment,1.0,300.0,1.0,5.0,1.0,,,resale,furnished,unknown,power of attorney,unknown,1700000.0,1759532.6664249087,59532.666424908675
+visakhapatnam,kirlampudi layout,unknown,apartment,3.0,2400.0,3.0,5.0,3.0,1.0,1.0,resale,semi-furnished,north,freehold,main road,19000000.0,21322110.803245403,2322110.803245403
+vadodara,diwalipura,unknown,apartment,4.0,3500.0,5.0,5.0,4.0,,,resale,furnished,unknown,unknown,unknown,15000000.0,10533317.385933157,4466682.614066843
+gurgaon,sector 54,dlf the summit,apartment,4.0,3600.0,9.0,30.0,4.0,4.0,3.0,resale,semi-furnished,north - west,freehold,garden/park,82500000.0,84472605.08389539,1972605.0838953853
+sonipat,tdi city kundli,lake grove lakedrive,apartment,4.0,1699.0,4.0,4.0,3.0,4.0,2.0,new property,semi-furnished,north,freehold,"garden/park, pool, main road",7500000.0,6845947.330556092,654052.6694439081
+patna,nasriganj,unknown,apartment,3.0,893.0,1.0,4.0,2.0,4.0,,new property,semi-furnished,east,freehold,main road,6500000.0,6646341.607126981,146341.60712698102
+guwahati,kahilipara,unknown,apartment,3.0,967.0,6.0,9.0,2.0,3.0,,resale,unfurnished,east,freehold,"garden/park, pool, main road",7200000.0,6494252.663572931,705747.3364270693
+bhubaneswar,patrapada,unknown,apartment,2.0,1190.0,2.0,4.0,2.0,1.0,,resale,unfurnished,north,freehold,"garden/park, main road",5800000.0,7415616.284138255,1615616.2841382548
+greater-noida,greater noida west,ajnara le garden,apartment,2.0,750.0,16.0,22.0,2.0,3.0,,resale,unfurnished,east,leasehold,garden/park,4000000.0,4645836.4714958295,645836.4714958295
+goa,porvorim,socorro gardens,apartment,2.0,1248.0,3.0,5.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,7600000.0,8330095.244367327,730095.2443673266
+new-delhi,manglam place rohini,unknown,apartment,3.0,688.8902666688,3.0,4.0,2.0,1.0,1.0,new property,semi-furnished,north - east,freehold,"garden/park, main road",12000000.0,6498403.559038114,5501596.440961886
+faridabad,sector 88,rps palms drive,apartment,2.0,890.0,1.0,4.0,2.0,2.0,1.0,new property,semi-furnished,north - west,freehold,garden/park,5500000.0,5056675.832949306,443324.1670506941
+greater-noida,greater noida west,unknown,apartment,2.0,670.0,14.0,23.0,2.0,4.0,,resale,unfurnished,east,unknown,"pool, garden/park",6700000.0,4606974.646940927,2093025.353059073
+nashik,nandan valley housing society,unknown,apartment,2.0,810.0,1.0,4.0,2.0,1.0,,resale,unfurnished,north,co-operative society,main road,5000000.0,4540448.16532301,459551.8346769903
+patna,hanuman nagar,unknown,apartment,2.0,600.0,2.0,3.0,1.0,1.0,,resale,semi-furnished,east,unknown,"garden/park, main road",3000000.0,3566683.572925654,566683.5729256538
+hyderabad,meenakshi estate jeedimetla,unknown,apartment,2.0,1150.0,5.0,5.0,2.0,,,resale,unknown,unknown,unknown,unknown,6500000.0,6001133.416018537,498866.58398146275
+gurgaon,dlf city phase 4 sector 28,dlf regency park 1,apartment,2.0,1105.0,1.0,26.0,2.0,2.0,,resale,unfurnished,unknown,freehold,"garden/park, main road",13500000.0,14558520.430903954,1058520.4309039544
+surat,althan,keshav height,apartment,2.0,666.0,7.0,13.0,2.0,1.0,1.0,resale,unfurnished,north - east,freehold,"garden/park, main road",4850000.0,4969786.66860816,119786.66860815976
+kochi,edappally,sfs grandville,apartment,3.0,2000.0,3.0,12.0,3.0,3.0,2.0,resale,furnished,east,freehold,main road,21000000.0,16755597.895180153,4244402.104819847
+ghaziabad,dasna dehat,aditya city apartment,apartment,2.0,699.0,5.0,17.0,2.0,3.0,1.0,new property,semi-furnished,east,freehold,"garden/park, pool, main road",3500000.0,4837044.584725486,1337044.584725486
+bangalore,ushodaya aqua kasavanahalli,unknown,apartment,2.0,1065.0,2.0,5.0,2.0,2.0,1.0,resale,semi-furnished,north,unknown,"garden/park, pool",7000000.0,6728804.1185105,271195.8814895004
+greater-noida,parsvnath platinum,unknown,apartment,2.0,800.0,0.0,4.0,2.0,2.0,,resale,semi-furnished,north - east,leasehold,"pool, garden/park, main road",7000000.0,4483997.714333143,2516002.285666857
+surat,jahangirabad,unknown,apartment,3.0,1450.0,5.0,13.0,3.0,2.0,1.0,resale,semi-furnished,east,freehold,"garden/park, main road",2600000.0,5699498.20489042,3099498.2048904197
+palghar,boisar,unknown,studio,1.0,253.0,3.0,4.0,1.0,1.0,,resale,unfurnished,north,co-operative society,unknown,1300000.0,1299433.2515965318,566.7484034681693
+kanpur,kalyan pur,rudra greens,apartment,2.0,1150.0,8.0,12.0,2.0,3.0,,resale,unfurnished,east,freehold,"garden/park, pool, main road",4500000.0,4882792.798445621,382792.7984456206
+surat,adajan,unknown,apartment,2.0,1200.0,9.0,9.0,2.0,1.0,1.0,resale,furnished,north - east,freehold,"garden/park, main road",5000000.0,5367917.447102667,367917.44710266683
+faridabad,sector 21c mathura road,unknown,apartment,4.0,2600.0,2.0,4.0,4.0,4.0,,new property,unfurnished,south -west,freehold,garden/park,25000000.0,20191693.97921076,4808306.02078924
+chennai,agaramthen,unknown,apartment,2.0,840.0,0.0,2.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,3200000.0,4640607.5582770305,1440607.5582770305
+vadodara,manjalpur,unknown,apartment,3.0,1545.0,4.0,4.0,2.0,2.0,,resale,semi-furnished,unknown,freehold,main road,4950000.0,5515368.25971871,565368.2597187096
+shimla,bharari road,campton estate,apartment,2.0,1285.0,3.0,4.0,2.0,2.0,1.0,resale,furnished,east,freehold,garden/park,6500000.0,9332083.677920643,2832083.6779206432
+bangalore,mana candela kodathi,unknown,apartment,2.0,1654.0,2.0,4.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,6000000.0,9802175.144481452,3802175.144481452
+mohali,sector 66,jlpl sky gardens,apartment,2.0,1250.0,4.0,12.0,2.0,3.0,,resale,semi-furnished,north - east,freehold,garden/park,9800000.0,9284618.540527582,515381.45947241783
+jabalpur,gwarighat,sukh sagar blue,apartment,2.0,675.0,4.0,5.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,2500000.0,2930819.185677763,430819.1856777631
+raipur,dunda,unknown,apartment,2.0,735.0,2.0,4.0,2.0,2.0,,resale,unfurnished,unknown,unknown,unknown,2000000.0,2235370.6384068783,235370.63840687834
+chennai,chamiers road,unknown,apartment,3.0,1650.0,,,3.0,,2.0,resale,semi-furnished,north,freehold,main road,38500000.0,22359159.054926254,16140840.945073746
+vadodara,shreeji aashray sayajipura,unknown,apartment,2.0,915.0,4.0,5.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,2250000.0,2994918.7111468776,744918.7111468776
+jaipur,jagatpura,unknown,apartment,2.0,973.0,4.0,6.0,2.0,2.0,,new property,unfurnished,east,freehold,main road,3390000.0,3317530.173618709,72469.8263812908
+noida,mahagun moderne sector 78,unknown,apartment,4.0,1835.0,8.0,22.0,4.0,3.0,,resale,semi-furnished,north,unknown,"pool, garden/park, main road",23000000.0,17566671.173311464,5433328.8266885355
+gurgaon,sector 84,gurgaon one,apartment,3.0,1760.0,17.0,26.0,4.0,3.0,,resale,unfurnished,north - west,freehold,"garden/park, main road",15000000.0,15319161.63434032,319161.6343403198
+chennai,thiruvika nagar,unknown,apartment,2.0,975.0,3.0,4.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4500000.0,5860241.3118003355,1360241.3118003355
+visakhapatnam,pm palem,unknown,apartment,3.0,1076.0,3.0,5.0,3.0,2.0,,new property,unfurnished,east,co-operative society,unknown,6759999.999999999,8100339.074422399,1340339.0744223995
+ahmedabad,south bopal bopal,shaligram prime,apartment,3.0,1435.0,7.0,14.0,3.0,1.0,1.0,new property,unfurnished,east,freehold,"garden/park, pool, main road",5740000.0,7451759.083952588,1711759.083952588
+nagpur,manish nagar,maxx pride,apartment,3.0,1200.0,7.0,7.0,3.0,3.0,1.0,resale,semi-furnished,east,freehold,"garden/park, main road",7000000.0,7277196.209672985,277196.20967298467
+chennai,saligramam,unknown,apartment,3.0,1671.0,3.0,5.0,3.0,1.0,1.0,new property,unfurnished,north - east,freehold,main road,18500000.0,18271544.18664027,228455.81335972995
+mohali,sector 115,exotica homez,apartment,3.0,886.0,1.0,8.0,3.0,3.0,,new property,semi-furnished,east,freehold,garden/park,5400000.0,4984805.976732683,415194.02326731663
+new-delhi,dwarka sector 12,kanak durga apartment,apartment,3.0,1400.0,2.0,8.0,2.0,3.0,,resale,semi-furnished,unknown,unknown,unknown,22500000.0,17225560.510012027,5274439.489987973
+jaipur,pratap nagar,unknown,apartment,2.0,473.6120583348,9.0,11.0,2.0,2.0,1.0,resale,unfurnished,unknown,unknown,unknown,3700000.0,2141651.8513846737,1558348.1486153263
+jaipur,mansarovar,unknown,apartment,3.0,1376.0,5.0,6.0,2.0,2.0,1.0,new property,semi-furnished,north - east,freehold,"garden/park, main road",5230000.0,4919703.34855801,310296.6514419904
+ahmedabad,thaltej,jayshri j9,apartment,3.0,2850.0,1.0,12.0,3.0,,,resale,unfurnished,unknown,unknown,unknown,14000000.0,18341184.377029832,4341184.377029832
+jamshedpur,kadma,unknown,apartment,3.0,1485.0,4.0,6.0,2.0,2.0,1.0,resale,semi-furnished,north,freehold,main road,5000000.0,8126067.785986546,3126067.7859865464
+chennai,nerkundram,unknown,apartment,2.0,720.0,2.0,4.0,2.0,1.0,1.0,new property,unfurnished,north - east,freehold,garden/park,7900000.0,5423596.43221636,2476403.5677836398
+zirakpur,airport road,unknown,apartment,3.0,1424.0,1.0,3.0,3.0,2.0,1.0,new property,semi-furnished,east,freehold,main road,6150000.0,6972865.043334766,822865.0433347663
+indore,indore bypass road,kalindi mid town,apartment,3.0,1051.0,3.0,10.0,2.0,1.0,,resale,unfurnished,unknown,unknown,unknown,2900000.0,4713995.575601546,1813995.575601546
+guwahati,janakpur,unknown,apartment,3.0,1250.0,3.0,3.0,2.0,2.0,,resale,unfurnished,north - east,leasehold,main road,6800000.0,6589710.242507476,210289.75749252364
+allahabad,preetam nagar,unknown,studio,1.0,315.0,0.0,2.0,1.0,,,resale,semi-furnished,north,unknown,unknown,1600000.0,2358792.0430111885,758792.0430111885
+vadodara,subhanpura,unknown,apartment,2.0,954.0,3.0,4.0,2.0,3.0,,resale,unfurnished,east,freehold,unknown,4500000.0,4061258.5670091505,438741.4329908495
+chandigarh,zirakpur,uptown skylla,apartment,3.0,1247.0,6.0,13.0,3.0,3.0,1.0,new property,semi-furnished,east,freehold,"pool, garden/park, main road",9800000.0,10503373.798364501,703373.7983645014
+aurangabad,gulmohar residency,unknown,apartment,2.0,800.0,3.0,4.0,2.0,1.0,,resale,semi-furnished,north,freehold,unknown,3300000.0,4117396.5026518917,817396.5026518917
+siliguri,champasari,unknown,apartment,3.0,1050.0,2.0,4.0,2.0,1.0,,resale,unfurnished,unknown,unknown,main road,2950000.0,4160182.2193113654,1210182.2193113654
+goa,mapusa,kamat gardens,apartment,3.0,1485.4196375046,0.0,3.0,2.0,,,resale,furnished,unknown,unknown,unknown,8500000.0,9972151.192641307,1472151.1926413067
+sonipat,ganaur,unknown,apartment,3.0,1350.0,0.0,3.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,5500000.0,6235156.345383894,735156.3453838937
+new-delhi,kishangarh vasant kunj,baljeet view apartment,apartment,2.0,750.0,4.0,4.0,2.0,2.0,1.0,new property,semi-furnished,north - east,freehold,"garden/park, main road",6000000.0,8074641.587461197,2074641.5874611968
+hyderabad,tnr enclave kothapet,unknown,apartment,2.0,1000.0,4.0,5.0,2.0,,,resale,unknown,unknown,unknown,unknown,4700000.0,5432528.623415292,732528.6234152922
+durgapur,bijra,iq city,apartment,3.0,900.0,13.0,13.0,3.0,2.0,,resale,unfurnished,unknown,leasehold,garden/park,6100000.0,4731970.899263243,1368029.1007367568
+hyderabad,barkatpura kachiguda nh 2 2,unknown,apartment,2.0,1068.0,2.0,4.0,2.0,2.0,1.0,resale,semi-furnished,north,freehold,unknown,8000000.0,6188963.488973717,1811036.5110262828
+hyderabad,kollur outer ring road,unknown,apartment,2.0,1176.0,3.0,5.0,2.0,1.0,,resale,unfurnished,west,freehold,"garden/park, pool, main road",4900000.0,6717470.510133941,1817470.5101339407
+ahmedabad,science city,unknown,apartment,3.0,1107.0,1.0,10.0,2.0,2.0,1.0,resale,furnished,north - east,freehold,"garden/park, main road",14500000.0,11437825.148626005,3062174.8513739947
+new-delhi,jasola,unknown,apartment,4.0,2200.0,2.0,4.0,5.0,3.0,4.0,new property,semi-furnished,north - east,freehold,main road,42300000.00000001,65665044.0254106,23365044.025410593
+pune,kharadi,atharva garden,apartment,2.0,850.0,1.0,5.0,2.0,2.0,1.0,resale,furnished,east,freehold,main road,8000000.0,9011040.987142025,1011040.9871420246
+greater-noida,noida extention,supertech eco village 3,villa,2.0,700.0,12.0,21.0,2.0,2.0,,resale,unfurnished,east,leasehold,"pool, garden/park, main road",3200000.0,3091461.6054927153,108538.39450728474
+noida,raj residency noida extension block a,unknown,apartment,2.0,864.0,5.0,20.0,2.0,2.0,1.0,resale,semi-furnished,north - east,leasehold,"pool, main road",5300000.0,5892322.182838005,592322.182838005
+zirakpur,zirakpur,escon arena zirakpur,apartment,3.0,1935.0,1.0,11.0,3.0,2.0,1.0,new property,semi-furnished,east,freehold,"garden/park, main road",6100000.0,7122807.04278513,1022807.0427851304
+chennai,velachery,unknown,apartment,3.0,1510.0,1.0,4.0,3.0,3.0,2.0,new property,furnished,unknown,freehold,"pool, main road",13500000.0,14599325.491359675,1099325.4913596753
+bangalore,silk board area,unknown,apartment,2.0,1080.0,2.0,4.0,2.0,1.0,1.0,new property,unfurnished,north - east,freehold,main road,6100000.0,6571755.428478424,471755.42847842444
+thane,thane west,swastik alps,apartment,2.0,1050.0,5.0,17.0,2.0,,,resale,furnished,unknown,unknown,unknown,12000000.0,11638365.876986783,361634.123013217
+bangalore,prestige royale gardens doddaballapur main road,unknown,apartment,2.0,1304.0,14.0,16.0,2.0,1.0,,resale,unfurnished,north,freehold,garden/park,13000000.0,12633807.819087874,366192.18091212586
+panchkula,sector-20,unknown,apartment,3.0,1160.0,2.0,3.0,3.0,2.0,,new property,unfurnished,north - east,freehold,main road,4300000.0,5584466.681594157,1284466.6815941567
+greater-noida,omicron 1,gaur atulyam,apartment,3.0,1200.0,8.0,20.0,2.0,3.0,1.0,resale,semi-furnished,north - east,leasehold,main road,7050000.0,7075243.542270212,25243.542270212434
+zirakpur,zirakpur,maya garden city,apartment,3.0,2800.0,9.0,9.0,3.0,4.0,1.0,resale,semi-furnished,north - east,freehold,unknown,6500000.0,5163640.395062927,1336359.6049370728
+mumbai,bhandup west,dreams complex,apartment,3.0,1008.0,15.0,22.0,3.0,1.0,2.0,resale,semi-furnished,east,freehold,garden/park,22500000.0,35888422.608440846,13388422.608440846
+visakhapatnam,pm palem,sarat sankalp paradise,apartment,3.0,1575.0,3.0,5.0,3.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,7800000.0,18281330.07143662,10481330.071436621
+ghaziabad,neeti khand 1 indirapuram,unknown,apartment,4.0,1668.4061145885,1.0,2.0,3.0,1.0,1.0,resale,semi-furnished,east,freehold,"garden/park, main road",12500000.0,9712134.152152598,2787865.847847402
+allahabad,stanley road,unknown,apartment,2.0,1200.0,0.0,2.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,7700000.0,7529488.507848352,170511.4921516478
+new-delhi,rajouri garden,unknown,apartment,3.0,1800.0,2.0,4.0,3.0,1.0,,new property,semi-furnished,east,freehold,main road,24000000.0,22782979.18603227,1217020.8139677308
+new-delhi,dwarka sector 6,shri bala ji apartment,apartment,3.0,1400.0,8.0,8.0,2.0,3.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, main road",16399999.999999998,19037098.723149695,2637098.7231496964
+bhiwadi,alwar bypass road,thd garden,apartment,2.0,1111.0,3.0,7.0,2.0,2.0,,resale,semi-furnished,east,unknown,unknown,1750000.0,2230543.1663499647,480543.1663499647
+ahmedabad,bodakdev,unknown,apartment,2.0,990.0,3.0,7.0,2.0,2.0,1.0,resale,furnished,east,freehold,garden/park,5500000.0,7231482.216929697,1731482.2169296974
+greater-noida,c-16,mahagun mywoods phase 2,apartment,3.0,900.0,11.0,21.0,2.0,4.0,1.0,new property,unfurnished,north - east,leasehold,"garden/park, main road",6390000.0,7959246.824774232,1569246.8247742318
+visakhapatnam,gajwaka jn,unknown,apartment,3.0,1500.0,1.0,3.0,3.0,2.0,,new property,semi-furnished,north,freehold,garden/park,6000000.0,5963848.038107019,36151.96189298108
+gurgaon,sector 104,ats triumph,apartment,4.0,2210.0,2.0,27.0,5.0,6.0,,resale,semi-furnished,east,freehold,"garden/park, main road",27500000.0,22179661.944933426,5320338.055066574
+hyderabad,padmarao nagar hyderabad-karimnagar highway,unknown,apartment,3.0,1510.0,1.0,5.0,3.0,,,resale,unfurnished,unknown,unknown,unknown,13000000.0,9020592.680110836,3979407.3198891636
+vadodara,gotri sevasi road,unknown,apartment,2.0,550.0,1.0,5.0,2.0,1.0,1.0,resale,semi-furnished,east,freehold,"garden/park, main road",2500000.0,2713776.0324534173,213776.0324534173
+faridabad,sector 88,unknown,apartment,2.0,1100.0,15.0,18.0,2.0,2.0,1.0,resale,unfurnished,east,freehold,main road,4900000.0,5221724.096713478,321724.09671347775
+vijayawada,patamata,unknown,apartment,3.0,1300.0,2.0,4.0,3.0,,,resale,furnished,unknown,unknown,unknown,5000000.0,7015575.611800011,2015575.6118000112
+visakhapatnam,panduranga puram,unknown,apartment,3.0,1400.0,3.0,5.0,3.0,2.0,1.0,new property,unfurnished,south,freehold,main road,15200000.0,8907876.171823768,6292123.828176232
+jamshedpur,mango,triveni bhaskar city,apartment,3.0,1410.0,,,2.0,,,new property,unfurnished,unknown,unknown,unknown,5780000.0,5605100.588896157,174899.41110384278
+new-delhi,mahavir enclave part 1,unknown,apartment,3.0,820.0,3.0,4.0,2.0,1.0,,new property,semi-furnished,north - east,freehold,"garden/park, main road",6500000.0,7556534.9216144625,1056534.9216144625
+dehradun,rajpur road,markx infra whispering willows,apartment,4.0,3019.0,2.0,7.0,4.0,,,resale,semi-furnished,south - east,freehold,unknown,18000000.0,20429798.760280967,2429798.7602809668
+durgapur,bidhannagar,alps residency,apartment,3.0,1294.0,6.0,6.0,2.0,2.0,,resale,unfurnished,unknown,unknown,unknown,4000000.0,4253366.917725618,253366.917725618
+surat,citylight area,unknown,apartment,2.0,1325.0,5.0,11.0,2.0,1.0,,resale,furnished,east,co-operative society,"garden/park, main road",5700000.0,5533023.020871641,166976.9791283589
+agra,tdi city fatehabad road,unknown,apartment,3.0,1660.0,2.0,3.0,2.0,3.0,2.0,new property,unfurnished,west,freehold,garden/park,3650000.0,5940460.613319028,2290460.613319028
+vapi,khodiyar nagar,unknown,apartment,1.0,550.0,3.0,4.0,1.0,,,resale,unfurnished,unknown,unknown,unknown,850000.0,998867.421356587,148867.42135658697
+faridabad,sector 79,omaxe royal residency,apartment,3.0,1685.0,4.0,17.0,3.0,3.0,1.0,resale,semi-furnished,north - east,freehold,main road,12500000.0,11225634.054265773,1274365.945734227
+bangalore,phase 2 electronic city,unknown,apartment,3.0,980.0,0.0,4.0,2.0,3.0,,new property,unfurnished,north - west,freehold,main road,4800000.0,4315119.031253614,484880.96874638554
+ghaziabad,chhapraula,unknown,apartment,2.0,950.0,2.0,6.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,3000000.0,4253531.574570378,1253531.5745703783
+greater-noida,yamuna expressway,home and soul f premiere,apartment,3.0,2555.0,,,4.0,,1.0,new property,semi-furnished,unknown,unknown,unknown,14200000.0,15301833.186747571,1101833.1867475715
+bangalore,sobha quartz dr puneeth rajkumar road,unknown,apartment,3.0,1920.0,7.0,9.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,14500000.0,15335031.390315058,835031.3903150577
+noida,ats picturesque reprieves sector 152 noida express way,unknown,apartment,3.0,1850.0,7.0,30.0,4.0,4.0,1.0,new property,semi-furnished,north - east,leasehold,"garden/park, pool",11600000.0,25523280.019246798,13923280.019246798
+pune,adarsh nagar kiwale,k ville,apartment,2.0,659.0,10.0,14.0,2.0,1.0,1.0,resale,unfurnished,east,freehold,"garden/park, pool, main road",5600000.0,5908505.139679521,308505.1396795213
+jaipur,vaishali nagar,vaishali utsav,apartment,1.0,300.0,2.0,12.0,1.0,1.0,,resale,unfurnished,east,freehold,garden/park,1450000.0,1865222.1432733524,415222.1432733524
+mumbai,wadala east,lodha altia,apartment,2.0,650.0,21.0,38.0,2.0,1.0,,resale,semi-furnished,east,leasehold,"pool, garden/park",22000000.0,19169346.302011415,2830653.6979885846
+ghaziabad,chander nagar surya nagar,gaur residency,apartment,3.0,1200.0,6.0,8.0,2.0,1.0,,resale,semi-furnished,unknown,unknown,main road,6200000.0,6457468.41191443,257468.41191442963
+hyderabad,oakfields apparatus patancheruvu,unknown,apartment,2.0,1154.0,,,2.0,,,new property,unfurnished,unknown,unknown,unknown,4920000.0,4889447.860619424,30552.13938057609
+bangalore,mrg bliss hosa road off hosur road,unknown,apartment,2.0,1145.0,4.0,4.0,2.0,,,new property,unfurnished,unknown,unknown,unknown,5980000.0,5429500.458396759,550499.5416032411
+new-delhi,lajpat nagar 3,unknown,apartment,3.0,1350.0,2.0,4.0,3.0,2.0,2.0,resale,semi-furnished,north - east,freehold,main road,34000000.0,25613861.94369542,8386138.056304581
+greater-noida,sector-pi,eldeco residency greens,apartment,3.0,1330.0,1.0,3.0,2.0,3.0,,resale,unfurnished,south -west,leasehold,main road,8000000.0,7889515.974691887,110484.02530811261
+jaipur,tonk road,arihant legacy,apartment,3.0,1350.0,3.0,9.0,3.0,2.0,,resale,unfurnished,unknown,unknown,unknown,4500000.0,6724110.200688741,2224110.200688741
+mohali,aerocity,ambika la parisian,apartment,3.0,864.0,5.0,15.0,2.0,3.0,1.0,resale,semi-furnished,north - east,freehold,"pool, garden/park, main road",9800000.0,10124990.370033558,324990.37003355846
+surat,hajira,rupak flats,apartment,2.0,700.0,5.0,5.0,1.0,1.0,,resale,semi-furnished,south - east,freehold,garden/park,2450000.0,2760596.984300817,310596.9843008169
+chennai,sriperumbudur,unknown,apartment,4.0,2812.0,10.0,18.0,4.0,2.0,,resale,furnished,unknown,freehold,unknown,12500000.0,40840672.140781246,28340672.140781246
+new-delhi,uday park south extension,unknown,apartment,3.0,1953.0,2.0,4.0,4.0,3.0,2.0,new property,semi-furnished,north - east,freehold,unknown,41500000.0,44069303.87538934,2569303.8753893375
+dehradun,canal road,unknown,apartment,3.0,1900.0,2.0,3.0,3.0,,,resale,unfurnished,unknown,unknown,unknown,5500000.0,8914345.502485717,3414345.5024857167
+noida,sector 146,unknown,apartment,4.0,1500.0,7.0,20.0,4.0,3.0,,new property,unfurnished,north - east,leasehold,"pool, garden/park, main road",29000000.0,15248703.035190152,13751296.964809848
+vadodara,karelibaug,unknown,apartment,2.0,780.0,3.0,3.0,1.0,1.0,,resale,semi-furnished,east,freehold,unknown,2800000.0,2871674.518972387,71674.51897238707
+noida,saviour greenarch noida extension,unknown,apartment,3.0,1160.0,20.0,22.0,2.0,3.0,,resale,semi-furnished,north - east,leasehold,garden/park,8000000.0,7884552.533507505,115447.46649249457
+pune,hinjawadi,blue ridge,apartment,1.0,460.0,1.0,24.0,1.0,1.0,1.0,resale,unfurnished,east,freehold,"garden/park, pool",4200000.0,3992619.319594168,207380.6804058319
+trichy,samayapuram,shri gangeya residences,apartment,2.0,1040.0,2.0,4.0,2.0,,,resale,furnished,unknown,unknown,unknown,6000000.0,5481910.664157493,518089.33584250696
+gurgaon,sector 48,vipul world,apartment,4.0,2500.0,3.0,3.0,4.0,3.0,2.0,resale,furnished,east,freehold,"garden/park, main road",26000000.0,23095382.592123568,2904617.407876432
+thrissur,chalakudy,unknown,apartment,2.0,848.0,1.0,6.0,2.0,1.0,,resale,semi-furnished,unknown,unknown,unknown,3000000.0,3351228.2232387406,351228.2232387406
+hyderabad,mahanagar ecopolis bandlaguda nagole,unknown,apartment,2.0,1165.0,2.0,5.0,2.0,2.0,,resale,furnished,unknown,unknown,unknown,7600000.0,6797775.09956304,802224.9004369602
+bhiwadi,alwar bypass road,trehan delight residences,apartment,2.0,562.0,12.0,18.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,1600000.0,2406897.854887105,806897.8548871051
+kolkata,ballygunge,multicon narayani,apartment,4.0,2109.0,6.0,7.0,4.0,1.0,,new property,unfurnished,south - east,freehold,main road,22500000.0,30079164.46297069,7579164.462970689
+pune,wanowrie,k raheja gardens,apartment,3.0,1350.0,2.0,12.0,3.0,1.0,1.0,resale,unfurnished,east,leasehold,unknown,17800000.0,13500352.21084199,4299647.789158011
+bangalore,ajmera infinity electronic city,unknown,apartment,3.0,1000.0,12.0,13.0,2.0,2.0,,resale,semi-furnished,east,freehold,"pool, garden/park",9700000.0,9340243.696386896,359756.3036131039
+ranchi,kanke,astor green,apartment,4.0,2700.0,3.0,12.0,3.0,1.0,2.0,new property,semi-furnished,east,freehold,"garden/park, pool, main road",18300000.0,22825034.51966267,4525034.519662671
+greater-noida,omega 1,gandharva apartment,apartment,3.0,1850.0,1.0,8.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,7350000.0,7027662.371773133,322337.62822686695
+surat,vadod gam,unknown,apartment,3.0,1492.0,8.0,10.0,3.0,1.0,1.0,new property,unfurnished,east,freehold,"garden/park, main road",4140000.0,7280724.035504664,3140724.0355046643
+greater-noida,sector-4,gaursons gaur city 5th avenue,apartment,3.0,1400.0,4.0,15.0,3.0,4.0,,resale,unfurnished,east,leasehold,garden/park,7650000.0,8077277.523171239,427277.5231712386
+greater-noida,greater noida authority lig flat greater noida,unknown,apartment,1.0,312.1534020843,3.0,3.0,1.0,,,resale,semi-furnished,unknown,unknown,unknown,1200000.0,1326316.1158960564,126316.1158960564
+kolkata,bansdroni,unknown,apartment,1.0,550.0,0.0,3.0,1.0,1.0,,new property,semi-furnished,south,freehold,unknown,1250000.0,2313908.16444938,1063908.1644493798
+pune,tathawade pimpri chinchwad,austin county,apartment,2.0,751.0,5.0,12.0,2.0,2.0,,new property,unfurnished,east,freehold,"garden/park, main road",6759999.999999999,5779207.006703869,980792.9932961296
+kalyan,kalyan murbad road,unknown,apartment,1.0,470.0,2.0,7.0,1.0,,,resale,unfurnished,east,co-operative society,"garden/park, main road",4600000.0,4232754.663909673,367245.33609032724
+mangalore,kadri,global court,apartment,2.0,1100.0,9.0,12.0,2.0,3.0,,new property,furnished,north,co-operative society,main road,7500000.0,8232329.924904307,732329.9249043074
+varanasi,shivpur,unknown,apartment,2.0,1050.0,3.0,4.0,2.0,2.0,,new property,furnished,east,freehold,main road,4000000.0,5710929.241661623,1710929.2416616231
+allahabad,agnipath colony,unknown,apartment,1.0,265.0,1.0,3.0,1.0,,,resale,unfurnished,unknown,unknown,unknown,2200000.0,1688070.7686967317,511929.23130326835
+thane,kolshet,lodha amara,apartment,1.0,472.0,15.0,28.0,2.0,,1.0,resale,semi-furnished,north - east,freehold,garden/park,7509999.999999999,7037542.266112497,472457.733887502
+bangalore,ds max serenity roopena agrahara bommanahalli,unknown,apartment,3.0,1200.0,1.0,5.0,2.0,1.0,1.0,resale,semi-furnished,north,freehold,unknown,8660000.0,8039321.266623376,620678.7333766241
+jaipur,shyam nagar,sun n moon belvedere park,apartment,2.0,1100.0,6.0,7.0,2.0,1.0,1.0,resale,unfurnished,south - east,freehold,unknown,6500000.0,5518458.164124839,981541.835875161
+guwahati,gotanagar,unknown,apartment,3.0,1072.0,3.0,3.0,2.0,2.0,1.0,new property,furnished,north,freehold,unknown,6260000.0,6425006.153213084,165006.15321308374
+ahmedabad,upvan residency,unknown,apartment,2.0,1053.0,2.0,7.0,2.0,1.0,,resale,semi-furnished,unknown,unknown,unknown,4000000.0,4809911.302027474,809911.3020274742
+bhopal,infront of rajdhani petrol pump chicklod road jehangirabad bhopal,unknown,apartment,2.0,650.0,3.0,4.0,2.0,,,resale,furnished,unknown,unknown,unknown,3000000.0,2387959.26196935,612040.7380306502
+new-delhi,hari nagar,unknown,apartment,2.0,900.0,2.0,3.0,2.0,3.0,,new property,semi-furnished,north - east,freehold,main road,7000000.0,7328813.1809059065,328813.1809059065
+bhiwadi,alwar bypass road,avalon residency phase 2,apartment,2.0,950.0,5.0,14.0,2.0,2.0,1.0,resale,semi-furnished,north - east,freehold,main road,1200000.0,2529210.3088768385,1329210.3088768385
+kolkata,rabindrapally bramhapur,unknown,apartment,2.0,650.0,3.0,4.0,1.0,1.0,,resale,unfurnished,unknown,unknown,unknown,1800000.0,2281987.5044579874,481987.5044579874
+bangalore,soundarya layout sidedahalli,unknown,apartment,2.0,780.0,0.0,2.0,2.0,,20.0,resale,semi-furnished,west,freehold,main road,2900000.0,6695923.18449636,3795923.18449636
+chennai,xs real en veedu guduvancheri,unknown,apartment,1.0,427.0,2.0,3.0,1.0,1.0,1.0,new property,unfurnished,east,freehold,main road,2120000.0,3405790.309287344,1285790.309287344
+kolkata,survey park,unknown,apartment,2.0,775.0,3.0,3.0,2.0,1.0,,resale,unfurnished,north - east,freehold,main road,3400000.0,3829371.070879309,429371.070879309
+faridabad,ballabhgarh sector 1 mathura road,unknown,apartment,3.0,725.0,3.0,3.0,2.0,1.0,,resale,unfurnished,south - east,freehold,garden/park,3800000.0,4160332.198706976,360332.19870697614
+mumbai,andheri west,adani western heights,apartment,3.0,1100.0,,,3.0,1.0,2.0,resale,semi-furnished,east,freehold,"pool, garden/park, main road",42500000.0,37477863.111168414,5022136.888831586
+ahmedabad,dharti nagar,shree umiya amimangal 5,apartment,2.0,658.0,5.0,7.0,2.0,,1.0,resale,unfurnished,east,freehold,garden/park,4500000.0,4243825.847797072,256174.15220292844
+coimbatore,saibaba colony,unknown,apartment,2.0,1200.0,3.0,3.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,6000000.0,6394554.164920745,394554.1649207454
+chandigarh,sector 20,unknown,apartment,3.0,1500.0,0.0,3.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,15000000.0,12159597.60412081,2840402.3958791904
+kolkata,sodepur,unknown,apartment,3.0,1150.0,2.0,5.0,2.0,2.0,,resale,unfurnished,south -west,freehold,main road,3800000.0,4134551.442794033,334551.44279403286
+navi-mumbai,sector 34 kharghar,skyline homes,apartment,1.0,430.0,3.0,5.0,2.0,3.0,,resale,furnished,unknown,unknown,unknown,5000000.0,6373136.5466682315,1373136.5466682315
+coimbatore,vadavalli,unknown,apartment,3.0,1781.0,2.0,4.0,3.0,4.0,,resale,unfurnished,east,freehold,unknown,6500000.0,8594632.415152412,2094632.415152412
+hyderabad,malkajgiri,unknown,apartment,3.0,1200.0,2.0,5.0,3.0,2.0,1.0,resale,semi-furnished,east,freehold,unknown,6200000.0,8864061.275961144,2664061.275961144
+jaipur,mansarovar,unknown,apartment,2.0,1296.0,,,2.0,,,unknown,semi-furnished,unknown,unknown,unknown,7000000.0,4623731.459684233,2376268.540315767
+hyderabad,begumpet,unknown,apartment,3.0,2410.0,,,3.0,,2.0,resale,unfurnished,unknown,freehold,unknown,24100000.0,23966962.386170246,133037.6138297543
+zirakpur,airport road,sushma joynest moh 1,apartment,2.0,630.0,4.0,8.0,2.0,3.0,,resale,unfurnished,north,freehold,main road,5400000.0,4985901.738802824,414098.26119717583
+dehradun,general mahadev singh road,unknown,apartment,3.0,1600.0,1.0,3.0,3.0,2.0,1.0,resale,semi-furnished,east,unknown,unknown,6500000.0,7342148.163013086,842148.1630130857
+vadodara,anjani avenue,unknown,apartment,1.0,650.0,3.0,5.0,1.0,2.0,,resale,unfurnished,north - east,power of attorney,"garden/park, main road",1400000.0,1704115.5534897393,304115.5534897393
+kolkata,bosepukur kasba,unknown,apartment,3.0,1150.0,3.0,4.0,2.0,2.0,1.0,resale,furnished,east,freehold,main road,7500000.0,7598088.182313103,98088.18231310323
+kolkata,kalikapur haltu,binayak kalikapur,apartment,2.0,850.0,1.0,3.0,2.0,1.0,,new property,unfurnished,south - east,freehold,"garden/park, main road",3500000.0,4260409.662558583,760409.6625585826
+greater-noida,c-16,nirala aspire phase 2,apartment,3.0,1050.0,3.0,4.0,3.0,3.0,1.0,new property,semi-furnished,north - east,leasehold,garden/park,10400000.0,10727732.619064774,327732.61906477436
+vadodara,manjalpur,sarvam heights manjalpur,apartment,2.0,875.0,7.0,9.0,2.0,2.0,,resale,semi-furnished,east,freehold,main road,5500000.0,3955806.8075437364,1544193.1924562636
+chennai,camp road,unknown,apartment,1.0,579.0,1.0,3.0,2.0,,,resale,furnished,unknown,unknown,unknown,2300000.0,3985172.3836016464,1685172.3836016464
+chandigarh,zirakpur,green valley residencia,apartment,3.0,1710.0,3.0,4.0,3.0,2.0,,new property,unfurnished,east,freehold,main road,7200000.0,7124969.693158003,75030.30684199743
+chennai,urbanrise revolution one padur,unknown,apartment,1.0,500.0,6.0,12.0,1.0,,,unknown,unfurnished,unknown,unknown,unknown,3000000.0,3154840.39088493,154840.3908849298
+bangalore,sumadhura sankalpam hoodi hoodi,unknown,apartment,2.0,930.0,4.0,4.0,2.0,2.0,1.0,resale,semi-furnished,north,freehold,unknown,13500000.0,6160726.750770538,7339273.249229462
+ranchi,argora,unknown,apartment,2.0,1050.0,2.0,5.0,2.0,2.0,2.0,new property,semi-furnished,east,freehold,main road,4800000.0,4915756.315642048,115756.31564204767
+chandigarh,zirakpur,joynest moh 1,apartment,3.0,1055.0,4.0,9.0,2.0,2.0,1.0,resale,semi-furnished,east,freehold,main road,6990000.000000001,7219196.504821298,229196.50482129678
+bangalore,keerthi krishna viva sarjapur road,unknown,apartment,3.0,1475.0,,,3.0,,,new property,semi-furnished,unknown,unknown,unknown,15400000.0,9902016.181909392,5497983.818090608
+jaipur,civil lines,unknown,apartment,3.0,1200.0,1.0,4.0,3.0,2.0,,new property,semi-furnished,north,freehold,garden/park,4800000.0,10166993.03307467,5366993.03307467
+bhiwadi,ashiana village,unknown,villa,2.0,1150.0,3.0,5.0,2.0,1.0,,resale,furnished,unknown,unknown,unknown,5200000.0,3304267.4894062825,1895732.5105937175
+zirakpur,airport road,sushma joynest moh 1,apartment,3.0,1411.0,4.0,8.0,3.0,1.0,,resale,semi-furnished,north - east,freehold,"garden/park, main road",9890000.0,9120371.363176148,769628.6368238516
+jabalpur,sneh nagar,unknown,apartment,2.0,500.0,0.0,3.0,1.0,,,resale,unfurnished,unknown,unknown,unknown,3500000.0,1892478.7046396977,1607521.2953603023
+gurgaon,sector 90,dlf regal gardens,apartment,3.0,1350.0,14.0,19.0,3.0,3.0,1.0,resale,semi-furnished,south,freehold,main road,11700000.0,12233815.36898022,533815.3689802196
+visakhapatnam,kurmannapalem,unknown,apartment,2.0,900.0,3.0,5.0,2.0,1.0,,resale,unfurnished,east,freehold,main road,3970000.0000000005,3452686.170895065,517313.8291049353
+chennai,saidapet,unknown,apartment,2.0,800.0,1.0,3.0,2.0,,,resale,furnished,unknown,unknown,unknown,9500000.0,5373697.264367325,4126302.735632675
+bangalore,whitefield,unknown,apartment,2.0,1470.0,1.0,13.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,9000000.0,10079531.385253085,1079531.3852530848
+greater-noida,zeta 1,ats dolce,apartment,3.0,1800.0,7.0,28.0,3.0,4.0,,resale,semi-furnished,north - east,freehold,"pool, garden/park, main road",14000000.0,10501229.139237847,3498770.860762153
+greater-noida,greater noida west,sikka kaamya greens,apartment,3.0,1450.0,,,3.0,,1.0,new property,semi-furnished,unknown,unknown,unknown,8770000.0,8465981.959340762,304018.04065923765
+bangalore,provident rays of dawn kengeri,unknown,apartment,2.0,655.0,5.0,14.0,2.0,2.0,1.0,new property,unfurnished,north,freehold,"garden/park, pool, main road",5600000.0,7100859.755946934,1500859.7559469342
+new-delhi,mansarovar garden,unknown,apartment,2.0,594.0,0.0,4.0,1.0,1.0,1.0,resale,unfurnished,north - east,freehold,unknown,7000000.0,4153868.925752328,2846131.074247672
+gurgaon,sector 70a,paras irene,apartment,4.0,2525.0,4.0,15.0,5.0,5.0,1.0,resale,semi-furnished,south,freehold,garden/park,27000000.0,24442701.54135799,2557298.4586420096
+mangalore,bendoor,unknown,apartment,3.0,2050.0,7.0,7.0,3.0,2.0,,resale,furnished,unknown,unknown,unknown,9000000.0,10529295.009302754,1529295.009302754
+new-delhi,agcr enclave anand vihar,unknown,apartment,3.0,1600.0,2.0,4.0,3.0,2.0,,resale,semi-furnished,west,freehold,"main road, garden/park, pool",27000000.0,26385750.658328753,614249.341671247
+gurgaon,sector 60,ireo skyon,apartment,2.0,1375.0,2.0,8.0,2.0,2.0,1.0,resale,semi-furnished,north - east,freehold,garden/park,21500000.0,17329318.30799483,4170681.6920051686
+hyderabad,aparna kanopy marigold gundlapochampally outer ring road,unknown,apartment,3.0,1930.0,10.0,15.0,3.0,2.0,2.0,resale,unfurnished,east,freehold,"garden/park, pool, main road",14000000.0,20092269.532903753,6092269.532903753
+bhiwadi,alwar bypass road,the essentia,apartment,2.0,900.0,18.0,19.0,2.0,3.0,,resale,unfurnished,east,freehold,"garden/park, pool, main road",1750000.0,1475309.262002005,274690.737997995
+hyderabad,jain srikar auroville hitech city,unknown,apartment,2.0,1052.0,1.0,6.0,2.0,1.0,,resale,unfurnished,north - east,freehold,garden/park,13700000.000000002,5988368.80396659,7711631.196033412
+faridabad,sector 88,unknown,apartment,3.0,1861.0,1.0,14.0,3.0,,1.0,resale,unfurnished,unknown,unknown,unknown,7600000.0,8806664.863870792,1206664.863870792
+udaipur,badgaon,unknown,apartment,3.0,2180.0,7.0,8.0,4.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,5800000.0,8664160.314964943,2864160.3149649426
+kolkata,action area 1a,unknown,apartment,1.0,450.0,4.0,4.0,3.0,,,resale,unfurnished,unknown,unknown,unknown,2500000.0,5566384.561933735,3066384.5619337354
+ahmedabad,motera,sangath silver,apartment,3.0,1800.0,4.0,5.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,6800000.0,6652995.494613011,147004.50538698863
+aurangabad,hirapur,unknown,apartment,2.0,650.0,3.0,6.0,2.0,2.0,,resale,unfurnished,unknown,unknown,"garden/park, pool, main road",2600000.0,3983475.5051196837,1383475.5051196837
+surat,adajan,unknown,apartment,2.0,1150.0,3.0,5.0,2.0,2.0,,resale,semi-furnished,south -west,freehold,"pool, garden/park, main road",4450000.0,4261343.144935817,188656.85506418254
+visakhapatnam,pedda waltair,unknown,apartment,2.0,860.0,2.0,5.0,2.0,2.0,1.0,resale,furnished,north,freehold,unknown,5100000.0,7643994.181358237,2543994.181358237
+thrissur,kuttanellur,unknown,apartment,3.0,2000.0,,,,,,resale,unknown,unknown,unknown,unknown,10000000.0,9675584.848004082,324415.1519959178
+faridabad,sector 82,floridaa,apartment,2.0,600.0,2.0,14.0,2.0,1.0,1.0,resale,semi-furnished,east,freehold,unknown,2250000.0,2253601.2322851485,3601.232285148464
+palghar,boisar,unknown,apartment,2.0,850.0,1.0,3.0,3.0,1.0,,resale,semi-furnished,east,freehold,main road,4500000.0,4281230.212937039,218769.78706296068
+new-delhi,acharya niketan mayur vihar,mavilla apartment,villa,3.0,1300.0,3.0,7.0,2.0,2.0,1.0,resale,semi-furnished,east,freehold,"garden/park, main road",24000000.0,18738671.789454807,5261328.210545193
+hyderabad,kondapur,unknown,apartment,2.0,1200.0,1.0,5.0,2.0,1.0,1.0,resale,semi-furnished,west,unknown,garden/park,9000000.0,11160168.583240671,2160168.583240671
+chennai,sobha meritta pudupakkam,unknown,apartment,1.0,575.0,13.0,14.0,1.0,1.0,,resale,semi-furnished,unknown,freehold,unknown,3400000.0,3319273.015674808,80726.98432519194
+kochi,marine drive,puravankara purva grandbay,apartment,3.0,1700.0,2.0,14.0,3.0,1.0,,resale,semi-furnished,unknown,unknown,unknown,17500000.0,17587999.01537113,87999.01537112892
+vijayawada,kankipadu,unknown,apartment,3.0,350.0,1.0,5.0,3.0,3.0,1.0,resale,unfurnished,east,freehold,main road,5100000.0,8894046.67111507,3794046.6711150706
+faridabad,sector 89,puri amanvilas,apartment,4.0,1880.0,1.0,4.0,4.0,2.0,2.0,resale,semi-furnished,north,freehold,main road,13500000.0,15508338.438395072,2008338.4383950718
+greater-noida,greater noida west,crc sublimis,apartment,2.0,1170.0,16.0,24.0,2.0,3.0,,new property,unfurnished,east,leasehold,"garden/park, pool",8000000.0,8023900.654912872,23900.65491287224
+patna,saguna more,unknown,apartment,2.0,1050.0,2.0,5.0,2.0,2.0,,new property,unfurnished,north,freehold,pool,5250000.0,6121582.324366366,871582.3243663656
+vadodara,vasna bhayli main road,rosedale heights,apartment,3.0,1110.0,3.0,3.0,3.0,3.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, main road",4800000.0,4983361.565300931,183361.56530093122
+vadodara,vasna bhayli main road,shree radhe exotica,apartment,2.0,1100.0,3.0,4.0,2.0,2.0,,resale,unfurnished,unknown,freehold,"garden/park, main road",3500000.0,3501308.8327688416,1308.8327688416466
+gurgaon,dlf city phase 5,dlf icon,apartment,4.0,2575.0,10.0,25.0,4.0,2.0,2.0,resale,semi-furnished,north - west,freehold,"garden/park, main road",50000000.0,49161423.5351595,838576.4648405015
+ahmedabad,tragad,unknown,apartment,2.0,1044.0,3.0,7.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,4200000.0,3248332.2901118896,951667.7098881104
+hyderabad,pacifica hillcrest gachibowli,unknown,apartment,3.0,1886.0,18.0,18.0,3.0,2.0,2.0,new property,unfurnished,west,freehold,"garden/park, pool, main road",14000000.0,22338494.10822899,8338494.108228989
+jaipur,vaishali nagar,unknown,apartment,3.0,1275.0,4.0,4.0,3.0,3.0,,resale,semi-furnished,south - east,freehold,"garden/park, main road",8300000.0,6446108.918056515,1853891.081943485
+thane,palava city,lodha lakeshore greens,apartment,1.0,510.0,11.0,18.0,1.0,1.0,1.0,new property,semi-furnished,unknown,leasehold,"garden/park, main road",3600000.0,5104101.071141284,1504101.071141284
+goa,panjim,karekar residency,apartment,2.0,1011.8075791698,7.0,8.0,2.0,3.0,,resale,unfurnished,east,leasehold,main road,12000000.0,10966571.271293025,1033428.7287069745
+patna,jagdeo path,unknown,apartment,3.0,1311.0,2.0,4.0,3.0,2.0,,resale,semi-furnished,west,freehold,unknown,8500000.0,8673583.263471246,173583.26347124577
+nagpur,wardha road,radha madhav vrindavan,apartment,2.0,1062.0,,,2.0,,,new property,unfurnished,unknown,unknown,unknown,4780000.0,4173056.8305797353,606943.1694202647
+zirakpur,zirakpur,skynet enclave,apartment,3.0,1060.0,2.0,2.0,2.0,3.0,,resale,unfurnished,unknown,freehold,"garden/park, main road",4500000.0,4424224.67819556,75775.32180443965
+greater-noida,sector 27,godrej the suites,apartment,2.0,720.0,20.0,20.0,2.0,2.0,,new property,furnished,north - east,leasehold,unknown,9500000.0,6819743.237512954,2680256.7624870464
+ahmedabad,chandkheda,pebble bay,apartment,3.0,2015.0,10.0,13.0,3.0,,,resale,unfurnished,unknown,unknown,unknown,7500000.0,8598687.011824202,1098687.0118242018
+jamshedpur,adarsh nagar,saptarshi apartment,apartment,2.0,1074.0,4.0,5.0,2.0,1.0,,resale,furnished,east,freehold,"garden/park, main road",3500000.0,4411440.90955867,911440.9095586697
+kolkata,dum dum,dolphin apartments,apartment,2.0,683.0,3.0,4.0,2.0,1.0,,resale,semi-furnished,south,freehold,"garden/park, main road",3200000.0,3463578.088831615,263578.08883161517
+greater-noida,greater noida west,pristine greens,apartment,2.0,850.0,2.0,6.0,2.0,1.0,,resale,furnished,north - east,freehold,main road,2400000.0,3004183.842481459,604183.842481459
+new-delhi,dwarka sector 12,golden heights,apartment,3.0,1600.0,8.0,8.0,2.0,2.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, main road",16000000.0,17366279.729596797,1366279.7295967974
+visakhapatnam,pm palem,unknown,apartment,2.0,820.0,2.0,5.0,2.0,2.0,,new property,unfurnished,east,co-operative society,unknown,5480000.0,4674177.638864707,805822.3611352928
+kolkata,eastern metropolitan bypass,ambuja udayan,apartment,2.0,800.0,3.0,3.0,1.0,,,resale,furnished,unknown,unknown,unknown,4000000.0,2236107.4097570586,1763892.5902429414
+pune,lalit estate baner,mittal crosswinds,apartment,4.0,2005.0,3.0,9.0,5.0,4.0,1.0,resale,semi-furnished,west,co-operative society,"garden/park, pool",20700000.0,25420781.53978873,4720781.53978873
+guwahati,lokhra,unknown,apartment,3.0,1300.0,2.0,7.0,2.0,1.0,,resale,unfurnished,unknown,unknown,unknown,6900000.0,5384036.717818031,1515963.282181969
+pune,rahatani,royal orange county,apartment,2.0,985.0,2.0,10.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,7500000.0,7285258.73450265,214741.26549735013
+ranchi,lalpur,unknown,apartment,2.0,1050.0,2.0,7.0,2.0,2.0,1.0,resale,semi-furnished,north,freehold,"garden/park, main road",5300000.0,6358588.127774861,1058588.1277748607
+kochi,edappally,sterling tejus,apartment,3.0,1300.0,0.0,3.0,3.0,1.0,,resale,unfurnished,east,freehold,unknown,6000000.0,7430980.5087677045,1430980.5087677045
+goa,priol mangueshi,unknown,apartment,2.0,753.473729169,1.0,3.0,1.0,,,resale,furnished,unknown,unknown,unknown,3200000.0,5232792.837408266,2032792.837408266
+bangalore,lingadeeranahalli,unknown,apartment,3.0,1409.0,3.0,3.0,2.0,2.0,,new property,semi-furnished,north,freehold,garden/park,7000000.0,10149369.541414136,3149369.541414136
+greater-noida,sector mu 2,unknown,apartment,1.0,380.0,0.0,11.0,1.0,1.0,,new property,unfurnished,unknown,unknown,unknown,1800000.0,1902572.4237793265,102572.42377932649
+kolkata,raja rammohan roy road,ambika icon,apartment,2.0,920.0,4.0,11.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,8000000.0,5609374.433020608,2390625.5669793924
+ahmedabad,tragad,dutt avalon,apartment,2.0,850.0,10.0,12.0,2.0,1.0,1.0,resale,unfurnished,east,freehold,"garden/park, main road",4500000.0,4244596.4960474735,255403.5039525265
+kanpur,cooperganj,ganges commercial complex,apartment,2.0,1000.0,1.0,5.0,2.0,1.0,,resale,semi-furnished,unknown,unknown,unknown,4000000.0,4556366.1414471185,556366.1414471185
+vadodara,manjalpur,unknown,apartment,2.0,900.0,2.0,4.0,1.0,,,resale,unfurnished,unknown,unknown,unknown,2100000.0,2579259.3412945573,479259.3412945573
+bhubaneswar,khandagiri,falcon crest,apartment,4.0,2100.0,6.0,17.0,3.0,2.0,,resale,unfurnished,unknown,unknown,unknown,25900000.0,14942832.27208586,10957167.72791414
+kolkata,santoshpur,unknown,apartment,2.0,700.0,0.0,3.0,2.0,1.0,,resale,semi-furnished,unknown,unknown,unknown,3700000.0,2839388.5580840963,860611.4419159037
+aurangabad,sindhi colony,unknown,apartment,1.0,1000.0,1.0,2.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,8500000.0,3417547.4612410627,5082452.538758937
+aurangabad,chikhalnthana,pride my world,apartment,4.0,1500.0,8.0,9.0,4.0,4.0,,resale,unfurnished,unknown,freehold,"garden/park, pool, main road",17000000.0,12013359.530604854,4986640.469395146
+gurgaon,sector 56,huda cghs,apartment,4.0,3500.0,2.0,4.0,4.0,3.0,2.0,new property,semi-furnished,north - east,freehold,unknown,42500000.0,36638431.194006294,5861568.805993706
+ahmedabad,shela,hn safal orchid greenfield,apartment,3.0,1087.0,16.0,16.0,3.0,1.0,,resale,semi-furnished,unknown,unknown,garden/park,12500000.0,8387700.225746429,4112299.7742535714
+bhiwadi,bhiwadi,unknown,apartment,1.0,510.0,3.0,4.0,1.0,3.0,,resale,semi-furnished,unknown,unknown,unknown,3300000.0,1050940.5250370954,2249059.4749629046
+faridabad,faridabad,unknown,apartment,1.0,450.0,2.0,4.0,1.0,1.0,,resale,furnished,unknown,unknown,unknown,1300000.0,2501856.622001355,1201856.622001355
+navi-mumbai,kharghar,unknown,apartment,2.0,790.0,,,2.0,2.0,1.0,resale,semi-furnished,east,freehold,"garden/park, main road",12500000.0,13106685.833173594,606685.8331735935
+visakhapatnam,pm palem,sarat sankalp paradise,apartment,3.0,2000.0,5.0,5.0,3.0,1.0,,resale,unfurnished,west,unknown,main road,14000000.0,12538263.722939253,1461736.2770607471
+greater-noida,noida extention,unknown,apartment,3.0,2050.0,20.0,25.0,2.0,3.0,1.0,resale,semi-furnished,north - east,leasehold,garden/park,22000000.0,13140268.489240931,8859731.510759069
+gurgaon,sector 51,orchid island,apartment,4.0,2100.0,2.0,3.0,4.0,4.0,2.0,new property,semi-furnished,north - east,freehold,"garden/park, main road",19000000.0,22621843.101982526,3621843.1019825265
+bangalore,petra park dasappa layout ramamurthy nagar,unknown,apartment,3.0,1781.0,,,2.0,,,resale,semi-furnished,unknown,unknown,unknown,6190000.0,11528566.31270528,5338566.31270528
+ludhiana,pakhowal road,centra greens,apartment,3.0,1037.0,6.0,13.0,3.0,4.0,1.0,new property,furnished,north,freehold,garden/park,13000000.0,11286649.199463379,1713350.8005366214
+visakhapatnam,yendada,unknown,apartment,3.0,1280.0,2.0,5.0,3.0,2.0,,new property,unfurnished,north,co-operative society,unknown,10200000.0,8457913.231113818,1742086.7688861825
+pune,chandkhed,village residency,villa,2.0,700.0,3.0,5.0,2.0,,1.0,resale,unfurnished,unknown,freehold,unknown,4000000.0,5392690.282772634,1392690.2827726342
+kalyan,tilak chowk,unknown,apartment,1.0,670.0,2.0,4.0,1.0,,,resale,semi-furnished,east,freehold,unknown,5000000.0,3602014.36818806,1397985.63181194
+coimbatore,vadavalli,sree daksha utkarsh,apartment,2.0,1200.0,4.0,4.0,2.0,2.0,,resale,semi-furnished,west,freehold,"pool, garden/park, main road",4500000.0,4628749.16932375,128749.16932374984
+new-delhi,vivek vihar phase 1,unknown,apartment,4.0,1980.5595166727999,4.0,4.0,4.0,3.0,1.0,resale,furnished,north,freehold,main road,55000000.0,37821881.18510305,17178118.81489695
+surat,palanpur,prestige riona,apartment,1.0,771.0,5.0,13.0,1.0,1.0,,new property,semi-furnished,east,freehold,unknown,2770000.0,2987992.5614135554,217992.5614135554
+visakhapatnam,atchutapuram,unknown,apartment,2.0,1100.0,5.0,5.0,2.0,1.0,1.0,resale,unfurnished,north,freehold,unknown,3800000.0,3156118.301781574,643881.6982184262
+thane,bhayandarpada,lodha splendora,apartment,1.0,440.0,22.0,30.0,2.0,,1.0,resale,unfurnished,west,freehold,garden/park,5900000.0,6547488.454854218,647488.4548542183
+sonipat,kundli,the new town,apartment,2.0,850.0,8.0,11.0,2.0,3.0,1.0,resale,semi-furnished,north,freehold,"garden/park, main road",2550000.0,3158955.3624280584,608955.3624280584
+ahmedabad,gota,popular paradise,apartment,3.0,990.0,8.0,10.0,3.0,1.0,1.0,new property,unfurnished,east,freehold,"garden/park, pool, main road",7500000.0,8044013.383637405,544013.383637405
+noida,amrapali silicon city sector 76,unknown,apartment,3.0,1275.0,8.0,19.0,2.0,4.0,,resale,semi-furnished,north - east,co-operative society,"pool, garden/park",7809999.999999999,7786462.761038254,23537.238961745054
+gurgaon,faridabad gurgaon road,paras quartier,apartment,4.0,4000.0,20.0,43.0,5.0,1.0,2.0,resale,unfurnished,east,freehold,garden/park,61200000.0,58528029.83719594,2671970.1628040597
+visakhapatnam,vepagunta,unknown,apartment,3.0,1250.0,2.0,5.0,2.0,1.0,1.0,resale,unfurnished,west,freehold,main road,4000000.0,6724074.693285039,2724074.6932850387
+new-delhi,dwarka sector 6,param puneet apartment,apartment,3.0,1600.0,5.0,8.0,3.0,2.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, main road",22500000.0,20076181.61170413,2423818.3882958703
+hyderabad,vaishno kuteer puppalguda,unknown,apartment,2.0,976.0,4.0,5.0,2.0,,1.0,resale,unfurnished,east,unknown,unknown,5000000.0,5231102.838586088,231102.83858608827
+surat,vesu,happy home elanza,apartment,4.0,2878.0,12.0,12.0,4.0,1.0,,resale,unfurnished,east,co-operative society,"garden/park, main road",17200000.0,16886520.54514335,313479.45485664904
+ranchi,bardman compound,spring valley phase i,apartment,4.0,2104.0,2.0,4.0,3.0,3.0,,resale,furnished,unknown,freehold,"garden/park, main road",17000000.0,14313490.953801818,2686509.046198182
+new-delhi,laxmi nagar,unknown,apartment,4.0,1800.0,1.0,4.0,3.0,,,resale,furnished,unknown,unknown,unknown,12500000.0,21212368.15043341,8712368.15043341
+kolkata,sealdah raja bazar,ideal heights,apartment,3.0,1645.0,18.0,19.0,3.0,1.0,,resale,semi-furnished,south,freehold,"pool, garden/park, main road",15000000.0,14772796.97849569,227203.0215043109
+sonipat,tdi city kundli,lake grove,apartment,3.0,1520.0,3.0,4.0,2.0,2.0,,new property,furnished,north - east,freehold,garden/park,5700000.0,5453424.908971031,246575.0910289688
+jaipur,vidhyadhar nagar,jeevan ashray,apartment,2.0,900.0,4.0,4.0,2.0,2.0,,resale,semi-furnished,north - east,freehold,garden/park,6700000.0,3646635.5792208966,3053364.4207791034
+dehradun,sahastradhara road,unknown,apartment,3.0,1850.0,2.0,2.0,3.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,7500000.0,7998744.3996004155,498744.3996004155
+zirakpur,vip road,penta homes,apartment,2.0,800.0,5.0,6.0,2.0,1.0,1.0,resale,semi-furnished,east,freehold,main road,2500000.0,4199339.317832882,1699339.3178328816
+chennai,bbc city paark sri lakshmi nagar valasaravakkam,unknown,apartment,3.0,1640.0,2.0,4.0,3.0,,2.0,resale,semi-furnished,unknown,unknown,unknown,12500000.0,14715564.69267417,2215564.6926741693
+kolkata,prince anwar shah road,merlin residency,apartment,2.0,1200.0,7.0,13.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,9900000.0,9076861.501880925,823138.4981190749
+bangalore,omshri opulence attibele,unknown,apartment,2.0,1000.0,0.0,4.0,2.0,2.0,1.0,resale,unfurnished,east,freehold,garden/park,3400000.0,6950602.054500067,3550602.0545000667
+ranchi,science center tagore hill morabadi,unknown,apartment,3.0,1440.0,3.0,3.0,2.0,2.0,1.0,resale,unfurnished,south - east,freehold,"garden/park, main road",4100000.0,6037929.417790789,1937929.4177907892
+gurgaon,sector 45,unknown,apartment,3.0,1950.0,2.0,4.0,3.0,3.0,2.0,new property,semi-furnished,east,freehold,unknown,16000000.0,21906699.355345707,5906699.355345707
+ghaziabad,nh 24,the royal cliff,apartment,3.0,1225.0,,,2.0,4.0,2.0,resale,semi-furnished,north - east,freehold,"garden/park, main road",7000000.0,5843040.617357429,1156959.3826425709
+new-delhi,pitampura,bu block pitampura,apartment,4.0,1800.0,2.0,4.0,4.0,2.0,,new property,semi-furnished,north - west,freehold,"main road, garden/park, pool",35000000.0,34320652.64195538,679347.3580446169
+faridabad,sainik colony sector 49,unknown,apartment,2.0,990.0,2.0,2.0,2.0,1.0,1.0,resale,semi-furnished,east,freehold,garden/park,3800000.0,3870921.884287352,70921.88428735221
+aurangabad,bhavsingpura,unknown,apartment,2.0,600.0,1.0,6.0,1.0,2.0,1.0,resale,unfurnished,east,freehold,"garden/park, main road",2200000.0,3546370.6783609707,1346370.6783609707
+vadodara,waghodia road,devam avenue,apartment,2.0,1000.0,1.0,5.0,2.0,2.0,,resale,unfurnished,west,freehold,garden/park,3200000.0,2479960.0254389504,720039.9745610496
+mohali,kharar,unknown,apartment,2.0,1100.0,1.0,3.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,3500000.0,3135875.4520304906,364124.5479695094
+visakhapatnam,sheelanagar,navya nulife,apartment,3.0,1680.0,5.0,5.0,3.0,2.0,,resale,furnished,south,freehold,"main road, garden/park, pool",8000000.0,9522273.869806916,1522273.8698069155
+goa,aquem,akar habitat,apartment,2.0,1148.0,2.0,4.0,2.0,2.0,,resale,unfurnished,unknown,freehold,garden/park,6700000.0,7061252.87608364,361252.8760836404
+zirakpur,dhakoli,unknown,apartment,2.0,1350.0,1.0,3.0,3.0,,1.0,resale,furnished,east,freehold,garden/park,11500000.0,4786119.0287960265,6713880.9712039735
+siliguri,uttorayon township,unknown,apartment,5.0,3298.0,,,4.0,,1.0,resale,unfurnished,unknown,leasehold,main road,25000000.0,24524628.02491779,475371.9750822112
+bangalore,sbv apartment jeevan bhimanagar,unknown,apartment,3.0,1210.0,3.0,4.0,3.0,3.0,,resale,semi-furnished,unknown,unknown,unknown,10000000.0,8868277.515800001,1131722.484199999
+bhiwadi,alwar bypass road,terra city,apartment,2.0,850.0,3.0,4.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,3800000.0,2107624.6709720176,1692375.3290279824
+jaipur,mansarovar,unknown,apartment,3.0,1670.0,1.0,6.0,3.0,3.0,1.0,new property,furnished,south - east,freehold,"garden/park, main road",8520000.0,6704699.046301858,1815300.9536981424
+kolkata,bansdroni,unknown,apartment,2.0,821.0,3.0,4.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,3600000.0,3594764.519274254,5235.480725746136
+greater-noida,sector 1,hawelia valencia homes,apartment,2.0,935.0,4.0,20.0,2.0,3.0,1.0,resale,semi-furnished,east,leasehold,"garden/park, pool",5200000.0,6040930.264201666,840930.2642016662
+bangalore,sobha indraprastha rajajinagar,unknown,apartment,3.0,1950.0,2.0,2.0,3.0,2.0,2.0,resale,furnished,north - west,freehold,unknown,31000000.0,25389002.21568707,5610997.78431293
+greater-noida,omicron 2,unknown,apartment,2.0,968.751937503,0.0,2.0,2.0,2.0,1.0,resale,unfurnished,north - east,power of attorney,main road,8500000.0,4824559.257669527,3675440.742330473
+jaipur,bapu nagar,unknown,apartment,3.0,2465.0,3.0,4.0,3.0,2.0,,new property,semi-furnished,north,freehold,main road,15000000.0,18439645.97972906,3439645.97972906
+ahmedabad,vaishnodevi circle,s g shiv ganesh,apartment,2.0,1215.0,12.0,12.0,2.0,1.0,1.0,resale,unfurnished,unknown,freehold,main road,7500000.0,5864685.724893607,1635314.2751063928
+rajahmundry,navbharat nagar,unknown,apartment,2.0,1125.0,2.0,3.0,2.0,,,resale,furnished,unknown,unknown,unknown,2500000.0,5196624.760621726,2696624.7606217256
+gurgaon,sector 46,unknown,apartment,3.0,2439.0,0.0,2.0,3.0,3.0,1.0,resale,semi-furnished,north - east,freehold,main road,17500000.0,18528077.425812032,1028077.4258120321
+gurgaon,sohna,breez global heights,apartment,2.0,645.0,7.0,15.0,2.0,3.0,,resale,unfurnished,unknown,freehold,garden/park,3900000.0,4327157.93947572,427157.9394757198
+palghar,vasai,krishika mayur nagar,apartment,2.0,548.0,3.0,3.0,1.0,1.0,,resale,semi-furnished,east,co-operative society,unknown,3500000.0,3433578.043697456,66421.9563025441
+bangalore,sarjapur road,unknown,apartment,3.0,1080.0,1.0,5.0,2.0,,,resale,furnished,unknown,unknown,unknown,5200000.0,6486860.318255955,1286860.3182559554
+kochi,kakkanad,unknown,apartment,3.0,1500.0,11.0,13.0,3.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,8000000.0,7421626.722491431,578373.277508569
+faridabad,sector 18 old faridabad mathura road,unknown,apartment,3.0,1850.0,3.0,4.0,3.0,2.0,1.0,new property,semi-furnished,east,freehold,main road,10500000.0,10448168.255277433,51831.7447225675
+visakhapatnam,shivaji palem,unknown,apartment,2.0,720.0,0.0,4.0,2.0,1.0,1.0,new property,unfurnished,east,freehold,main road,6010000.0,3765826.146810868,2244173.853189132
+faridabad,sector 42 mathura road,unknown,apartment,4.0,2200.0,2.0,4.0,4.0,2.0,2.0,new property,semi-furnished,north,freehold,"garden/park, main road",12000000.0,15233182.852969538,3233182.8529695384
+gurgaon,golf course road,parsvnath exotica,apartment,3.0,2725.0,6.0,11.0,4.0,3.0,2.0,resale,unfurnished,north - west,freehold,garden/park,39500000.0,44718023.948545165,5218023.948545165
+trivandrum,kazhakkottam,vfive elysium,apartment,2.0,1145.0,5.0,14.0,2.0,2.0,,resale,semi-furnished,north - west,freehold,unknown,7000000.0,6061507.738943918,938492.2610560823
+mumbai,kanjurmarg west,runwal forests,apartment,2.0,661.0,8.0,36.0,2.0,,1.0,resale,unfurnished,east,freehold,garden/park,17500000.0,17902888.219881598,402888.2198815979
+zirakpur,patiala road,trishla city,apartment,4.0,1760.0,2.0,11.0,4.0,4.0,1.0,resale,semi-furnished,east,freehold,"garden/park, pool, main road",10500000.0,13985019.938938502,3485019.938938502
+hyderabad,svs oracle narepally,unknown,apartment,3.0,1533.0,4.0,5.0,3.0,1.0,1.0,resale,unfurnished,west,freehold,pool,6900000.0,10379069.804296348,3479069.8042963482
+surat,jahangirabad,unknown,apartment,2.0,1015.0,8.0,14.0,2.0,,,new property,unfurnished,unknown,unknown,unknown,3100000.0,3465455.3812311958,365455.38123119576
+visakhapatnam,kurmannapalem,unknown,apartment,3.0,1290.0,1.0,5.0,2.0,2.0,,resale,semi-furnished,north,freehold,main road,5000000.0,4863823.640260699,136176.3597393008
+chandigarh,zirakpur,altura apartments,apartment,2.0,1285.0,7.0,14.0,2.0,3.0,,new property,semi-furnished,unknown,freehold,"garden/park, main road",6200000.0,7298495.658036263,1098495.6580362627
+chandigarh,manimajra,unknown,apartment,3.0,2500.0,4.0,4.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,6520000.0,12861973.031968677,6341973.031968677
+durgapur,bamunara,tapoban city,apartment,3.0,910.0,7.0,10.0,2.0,1.0,1.0,new property,unfurnished,south - east,freehold,"garden/park, main road",2880000.0,3441654.86247881,561654.8624788099
+chennai,mudichur,unknown,apartment,2.0,1024.0,0.0,3.0,2.0,,,resale,semi-furnished,west,freehold,unknown,4000000.0,6581869.780303483,2581869.780303483
+mohali,sector 127,gillco villas,villa,2.0,900.0,1.0,3.0,1.0,,,resale,unfurnished,unknown,unknown,unknown,2800000.0,2304233.2064900203,495766.79350997973
+vadodara,manjalpur,unknown,apartment,3.0,1150.0,2.0,2.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,3200000.0,4550636.985982521,1350636.9859825214
+bhiwadi,alwar bypass road,unknown,apartment,2.0,1200.0,7.0,14.0,2.0,,1.0,resale,semi-furnished,unknown,unknown,unknown,4000000.0,2591137.102680238,1408862.897319762
+chandigarh,zirakpur,sushma valencia,apartment,3.0,900.0,4.0,4.0,3.0,3.0,,new property,unfurnished,west,freehold,"garden/park, main road",7750000.0,7726222.072223029,23777.9277769709
+surat,jahangirabad,nakshatra nebula,apartment,3.0,1609.0,9.0,13.0,3.0,1.0,,resale,furnished,east,freehold,garden/park,6500000.0,6124922.202900913,375077.7970990874
+chennai,fairyland annora madipakkam,unknown,apartment,2.0,780.0,2.0,2.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4500000.0,5009995.501635251,509995.50163525064
+surat,pal,rajhans elita,apartment,3.0,1600.0,1.0,12.0,3.0,,,resale,furnished,unknown,unknown,unknown,5390000.0,9083242.990564186,3693242.990564186
+mumbai,sundervan complex,unknown,apartment,3.0,1300.0,11.0,14.0,3.0,,1.0,resale,unfurnished,south,freehold,main road,45000000.0,68276807.32721984,23276807.327219844
+badlapur,kulgaon,unknown,apartment,1.0,465.0,1.0,4.0,2.0,3.0,,resale,semi-furnished,east,co-operative society,main road,3100000.0,2207275.9697396387,892724.0302603613
+chennai,abhinav kailash apartments little mount saidapet chennai,unknown,apartment,2.0,900.0,,,,,,resale,unknown,unknown,unknown,unknown,8000000.0,5441919.061208561,2558080.938791439
+mumbai,jogeshwari vikhroli link road,oberoi splendor grande,apartment,3.0,1300.0,25.0,27.0,3.0,3.0,2.0,resale,unfurnished,east,co-operative society,garden/park,61000000.0,41505244.462482564,19494755.537517436
+gurgaon,sohna gurgaon road,malibu town,apartment,4.0,2700.0,1.0,4.0,4.0,2.0,2.0,new property,semi-furnished,north - east,freehold,"garden/park, main road",30000000.0,27314407.585675202,2685592.4143247977
+bhiwandi,temghar pada,unknown,apartment,1.0,450.0,1.0,7.0,1.0,2.0,,resale,semi-furnished,north,co-operative society,garden/park,2800000.0,2480193.8027713867,319806.1972286133
+greater-noida,greater noida west,onyx county,apartment,2.0,910.0,2.0,4.0,2.0,,,new property,semi-furnished,unknown,unknown,unknown,2390000.0,3373777.6243711635,983777.6243711635
+surat,sagrampura,unknown,apartment,1.0,450.0,3.0,6.0,1.0,,,resale,unfurnished,unknown,unknown,unknown,1050000.0,1456615.5029474802,406615.5029474802
+chennai,mahindra lakewoods singaperumal koil,unknown,apartment,2.0,950.0,4.0,14.0,2.0,2.0,,new property,semi-furnished,east,freehold,"garden/park, pool, main road",7000000.0,7219800.164020564,219800.1640205644
+bangalore,brigade meadows kanakapura road,unknown,apartment,2.0,940.0,6.0,6.0,2.0,1.0,1.0,resale,unfurnished,east,freehold,"garden/park, pool, main road",4700000.0,6921272.532741107,2221272.532741107
+vijayawada,prasadampaddu,unknown,apartment,2.0,1100.0,3.0,5.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,4000000.0,3894734.0835461193,105265.91645388072
+thane,nandivali gaon,unknown,studio,1.0,370.0,3.0,3.0,1.0,,,resale,furnished,unknown,unknown,unknown,2000000.0,3033051.8268961725,1033051.8268961725
+mohali,sector 126,gillco parkhills,apartment,3.0,1050.0,2.0,19.0,2.0,2.0,1.0,resale,semi-furnished,north - east,freehold,garden/park,9000000.0,9005283.78238524,5283.782385239378
+chennai,casagrand aristo kannan colony,unknown,apartment,2.0,1232.0,4.0,4.0,2.0,1.0,2.0,resale,semi-furnished,north - east,freehold,pool,16500000.0,13549799.274022833,2950200.7259771675
+ahmedabad,vaishnodevi circle,aatishya 100,apartment,3.0,1665.0,8.0,13.0,3.0,1.0,1.0,new property,unfurnished,east,freehold,garden/park,6570000.0,9209897.453699136,2639897.453699136
+visakhapatnam,madhurawada,unknown,apartment,3.0,1260.0,2.0,5.0,2.0,2.0,,new property,unfurnished,east,co-operative society,unknown,8490000.0,6473494.336058368,2016505.663941632
+faridabad,sector 10 pocket g,unknown,apartment,3.0,2000.0,2.0,3.0,2.0,2.0,1.0,resale,semi-furnished,south - east,freehold,main road,8200000.0,9535052.685623555,1335052.6856235545
+noida,prateek wisteria sector 77,unknown,apartment,2.0,909.0,2.0,14.0,2.0,4.0,,resale,unfurnished,east,leasehold,"garden/park, pool, main road",7200000.0,6887994.377610398,312005.62238960154
+zirakpur,patiala road,motia greens,apartment,3.0,1200.0,2.0,3.0,3.0,2.0,1.0,new property,semi-furnished,east,freehold,garden/park,6750000.0,6181039.615001571,568960.3849984286
+faridabad,suraj kund sector 37,arihant southwinds,apartment,3.0,2685.0,3.0,3.0,4.0,3.0,1.0,new property,semi-furnished,north - east,freehold,"garden/park, pool",19000000.0,18470153.919728003,529846.0802719966
+panchkula,sector 2,unknown,apartment,3.0,2200.0,2.0,4.0,3.0,2.0,1.0,new property,unfurnished,north - east,freehold,garden/park,28500000.0,26005927.1387213,2494072.8612787016
+mumbai,powai,unknown,apartment,4.0,1965.0,,,4.0,1.0,2.0,new property,semi-furnished,east,freehold,"garden/park, pool, main road",110000000.0,68927485.40967707,41072514.59032293
+new-delhi,acharya niketan mayur vihar,anandlok housing society,apartment,4.0,1550.0,2.0,7.0,3.0,3.0,1.0,resale,semi-furnished,east,freehold,"garden/park, main road",23000000.0,22389036.670648564,610963.3293514363
+faridabad,sector 89,honour homes,apartment,3.0,1400.0,2.0,4.0,3.0,2.0,1.0,new property,semi-furnished,west,freehold,unknown,8500000.0,8263379.405522725,236620.5944772754
+mangalore,chilimbi,unknown,apartment,2.0,1282.0,1.0,3.0,2.0,4.0,1.0,resale,semi-furnished,south - east,freehold,"garden/park, main road",5770000.0,5353532.311028783,416467.6889712168
+gurgaon,dlf city phase 4 sector 28,luxury floors gurgaon,apartment,3.0,1825.0,3.0,4.0,3.0,2.0,,new property,semi-furnished,east,freehold,"garden/park, pool, main road",22500000.0,22243818.5947772,256181.40522279963
+ahmedabad,nikol,savaliya krish residency 2,apartment,2.0,1215.0,4.0,5.0,2.0,3.0,1.0,resale,furnished,south - east,unknown,unknown,4000000.0,4567842.885209639,567842.8852096386
+gurgaon,sector 102,emaar gurgaon greens,apartment,3.0,1155.0,7.0,16.0,3.0,2.0,1.0,resale,semi-furnished,north,freehold,"garden/park, pool, main road",14500000.0,15643035.356522014,1143035.3565220144
+pune,somwar peth,unknown,apartment,1.0,385.0,0.0,6.0,2.0,,,resale,unfurnished,north,freehold,garden/park,3850000.0,3973386.732559084,123386.73255908396
+new-delhi,dwarka sector 4,cghs antariksh apartments,apartment,3.0,1675.0,5.0,10.0,2.0,3.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, main road",21500000.0,18701138.31049394,2798861.6895060614
+noida,habitech panchtatva noida extension,unknown,apartment,2.0,1195.0,12.0,19.0,2.0,3.0,,resale,furnished,north - east,leasehold,"garden/park, main road",7500000.0,8715907.346779998,1215907.3467799984
+siliguri,east vivekananda pally,unknown,apartment,2.0,680.0,3.0,3.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,2000000.0,2544040.7789089656,544040.7789089656
+bhopal,katara hills,signature 360,apartment,2.0,740.0,3.0,6.0,2.0,2.0,,resale,unfurnished,north - east,freehold,garden/park,1900000.0,2700028.8215055186,800028.8215055186
+ahmedabad,shela,samarth stanza,apartment,3.0,760.0,11.0,14.0,3.0,,1.0,resale,semi-furnished,east,freehold,"garden/park, pool, main road",5200000.0,7013861.128595552,1813861.1285955524
+surat,adajan,rajhans campus,apartment,2.0,1250.0,5.0,12.0,2.0,2.0,,resale,semi-furnished,east,freehold,"garden/park, main road",5500000.0,4822874.798366426,677125.2016335744
+trivandrum,karimankulam,unknown,apartment,3.0,1342.0,0.0,14.0,3.0,,,resale,unknown,unknown,unknown,unknown,8000000.0,7622548.745731334,377451.2542686658
+gurgaon,sohna sector 32,aqua front towers,apartment,3.0,1239.0,10.0,14.0,3.0,3.0,1.0,new property,semi-furnished,east,freehold,"garden/park, pool, main road",15500000.0,15873229.317736894,373229.3177368939
+thane,dhokali,the icon by risland,apartment,2.0,750.0,28.0,30.0,2.0,4.0,,resale,unfurnished,east,freehold,main road,15000000.0,12977371.964158982,2022628.035841018
+pune,lohegaon,aastha residency,apartment,1.0,468.0,2.0,4.0,2.0,1.0,1.0,resale,unfurnished,east,freehold,main road,2900000.0,2873408.476545241,26591.523454758804
+bhiwadi,alwar bypass road,unknown,apartment,2.0,800.0,13.0,13.0,2.0,2.0,,resale,unfurnished,unknown,unknown,unknown,2100000.0,1964674.835195225,135325.16480477504
+jaipur,ajmer road,unknown,apartment,3.0,850.0,3.0,7.0,3.0,2.0,1.0,new property,furnished,north - east,freehold,main road,5000000.0,4981491.759533401,18508.240466599353
+coimbatore,tvs nagar,unknown,apartment,3.0,2500.0,1.0,2.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,13000000.0,13625233.449070102,625233.4490701016
+bangalore,sathvik enclave vignan nagar,unknown,apartment,2.0,1090.0,1.0,4.0,2.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,6500000.0,6177661.115848556,322338.88415144384
+surat,vesu,unknown,apartment,4.0,4000.0,9.0,13.0,4.0,2.0,2.0,new property,unfurnished,east,freehold,"garden/park, main road",25500000.0,23251929.3330461,2248070.666953899
+bangalore,siroya environ hebbal,unknown,apartment,3.0,1874.0,5.0,19.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,18000000.0,16234845.598948278,1765154.4010517225
+thane,ambernath west,patel prestige,apartment,2.0,530.0,5.0,12.0,2.0,2.0,1.0,new property,unfurnished,east,freehold,garden/park,3290000.0,6940718.791033821,3650718.791033821
+raipur,new dhamtari road,unknown,apartment,1.0,487.0,1.0,3.0,1.0,1.0,,resale,unfurnished,unknown,unknown,unknown,790000.0,1650814.7724317021,860814.7724317021
+ahmedabad,shilaj,shafalya renown,apartment,3.0,984.0,2.0,10.0,3.0,1.0,1.0,new property,unfurnished,east,freehold,"garden/park, main road",5750000.0,6886714.534951442,1136714.534951442
+surat,jahangirabad,unknown,apartment,3.0,950.0,10.0,13.0,2.0,1.0,,resale,furnished,east,freehold,"garden/park, main road",3000000.0,5190358.51894791,2190358.5189479096
+kochi,chittoor rd,unknown,apartment,3.0,1900.0,10.0,13.0,4.0,,,resale,furnished,unknown,unknown,unknown,10000000.0,12569444.132192366,2569444.132192366
+surat,athwa gate,unknown,apartment,2.0,960.0,,,,,,resale,unknown,unknown,unknown,unknown,3200000.0,3364044.2569790236,164044.25697902357
+trivandrum,thiruvananthapuram,heera grace,apartment,3.0,1800.0,13.0,18.0,4.0,2.0,1.0,resale,furnished,north - east,co-operative society,garden/park,15000000.0,12640723.283829877,2359276.716170123
+ahmedabad,satellite road,abhilasha apartment,apartment,2.0,1035.0,5.0,5.0,2.0,,,resale,furnished,unknown,unknown,unknown,5500000.0,4971669.908233762,528330.0917662382
+mohali,sector 117,tdi wellington heights,apartment,2.0,1050.0,5.0,11.0,2.0,2.0,1.0,resale,unfurnished,north - east,freehold,main road,4500000.0,5247571.005381525,747571.0053815246
+gurgaon,sector 47,unknown,apartment,3.0,1350.0,2.0,3.0,3.0,,,resale,unfurnished,unknown,unknown,unknown,14500000.0,11624148.398216754,2875851.601783246
+kanpur,kalyan pur,diviniti homes,apartment,3.0,1700.0,10.0,15.0,3.0,4.0,1.0,resale,furnished,east,freehold,"garden/park, pool, main road",9500000.0,10831836.69062714,1331836.690627141
+pune,keshav nagar mundhwa,godrej infinity,apartment,2.0,866.0,12.0,22.0,2.0,3.0,,resale,unfurnished,south -west,co-operative society,main road,8600000.0,8316217.444375483,283782.5556245167
+pune,raja ram mohanroy extension,unknown,apartment,1.0,530.0,3.0,4.0,1.0,,,resale,unknown,unknown,unknown,unknown,2300000.0,3372729.3237470244,1072729.3237470244
+faridabad,suraj kund sector 37,ibiza town,apartment,3.0,1346.0,19.0,19.0,4.0,2.0,2.0,resale,semi-furnished,east,freehold,"garden/park, main road",18500000.0,18414046.818173904,85953.18182609603
+gurgaon,bestech park view spa next sector 67 sohna road,ireo victory valley,apartment,5.0,4200.0,10.0,10.0,5.0,4.0,3.0,resale,semi-furnished,north,freehold,"garden/park, pool",64000000.0,63694566.77256787,305433.22743213177
+surat,vip road,unknown,apartment,3.0,3350.0,4.0,13.0,3.0,,,new property,unfurnished,unknown,unknown,unknown,19000000.0,17525587.43902019,1474412.5609798096
+gurgaon,south city 1 sector 41,the palms apartment owners association,apartment,2.0,1150.0,12.0,16.0,2.0,2.0,,resale,semi-furnished,south - east,freehold,garden/park,15200000.0,14408428.043133847,791571.9568661526
+bangalore,haralur main road,unknown,apartment,3.0,1300.0,2.0,3.0,3.0,2.0,1.0,new property,unfurnished,east,freehold,main road,12000000.0,10978335.92867167,1021664.0713283308
+chennai,korattur,unknown,apartment,3.0,1571.0,14.0,21.0,3.0,,1.0,resale,furnished,unknown,unknown,unknown,12000000.0,11656239.84602751,343760.15397248976
+mumbai,wadala,ajmera i land,apartment,1.0,335.0,12.0,22.0,2.0,,,new property,unfurnished,unknown,unknown,unknown,6320000.0,7168758.806218354,848758.806218354
+chandigarh,zirakpur,sushma chandigarh grande,apartment,4.0,1650.0,5.0,14.0,4.0,4.0,1.0,new property,semi-furnished,north - east,freehold,"pool, garden/park, main road",15200000.0,11779775.497975364,3420224.5020246357
+vadodara,manjalpur,unknown,apartment,1.0,450.0,1.0,2.0,2.0,1.0,1.0,resale,unfurnished,south,freehold,main road,1800000.0,2497090.073877631,697090.0738776312
+gurgaon,sector 30 block a delhi gurgaon expressway,unknown,apartment,3.0,1300.0,3.0,4.0,2.0,2.0,1.0,new property,semi-furnished,north - east,freehold,"garden/park, main road",7190000.000000001,10611583.002911462,3421583.0029114606
+vadodara,vasna bhayli main road,unknown,apartment,4.0,2670.0,6.0,9.0,3.0,,,new property,unfurnished,unknown,unknown,unknown,8740000.0,8353748.8314181715,386251.1685818285
+visakhapatnam,atchutapuram visakhapatnam,unknown,apartment,3.0,1520.0,1.0,15.0,2.0,,,unknown,unfurnished,unknown,unknown,unknown,6000000.0,9171842.146208433,3171842.1462084334
+ranchi,bariatu,unknown,apartment,3.0,1200.0,5.0,6.0,2.0,3.0,1.0,resale,semi-furnished,unknown,unknown,main road,9000000.0,6031433.7669129,2968566.2330871
+hyderabad,prestige high fields gachibowli,unknown,apartment,4.0,2848.0,20.0,34.0,4.0,3.0,,resale,unfurnished,north - west,freehold,unknown,30000000.0,29517373.261141766,482626.73885823414
+pune,porwal road,unknown,apartment,1.0,600.0,2.0,4.0,2.0,1.0,1.0,resale,unfurnished,east,freehold,unknown,2700000.0,3956140.847689011,1256140.8476890111
+bangalore,rohan avriti whitefield,unknown,apartment,3.0,1670.0,6.0,11.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,15600000.0,12053095.597571151,3546904.4024288487
+chennai,ayappakkam,unknown,apartment,3.0,1110.0,2.0,3.0,2.0,2.0,1.0,new property,unfurnished,east,freehold,unknown,6300000.0,7844236.987000515,1544236.9870005148
+greater-noida,greater noida west,6th avenue,apartment,2.0,980.0,10.0,20.0,2.0,3.0,1.0,resale,semi-furnished,east,leasehold,garden/park,5200000.0,5460029.386709699,260029.3867096994
+surat,palanpur gam,eden enclave,apartment,3.0,1331.0,8.0,12.0,3.0,1.0,,resale,unfurnished,east,freehold,"garden/park, main road",4500000.0,6212531.137590188,1712531.1375901876
+jamshedpur,kadma,unknown,apartment,2.0,600.0,0.0,1.0,1.0,1.0,,resale,semi-furnished,north,unknown,main road,3000000.0,4510189.443584994,1510189.4435849944
+guwahati,beltola,unknown,apartment,3.0,3000.0,3.0,4.0,3.0,1.0,1.0,new property,unfurnished,north - east,freehold,main road,19500000.0,21790941.350281283,2290941.3502812833
+jamshedpur,adarsh nagar,saptarshi apartment,apartment,2.0,1000.0,3.0,5.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,2800000.0,4085747.1737292074,1285747.1737292074
+thane,kolshet road,sunrise by kalpataru,apartment,2.0,779.0,13.0,26.0,2.0,1.0,1.0,resale,unfurnished,north - east,freehold,"garden/park, main road",14100000.0,15785723.299119517,1685723.2991195172
+bhubaneswar,unit 6,banaja apartment ganga nagar,apartment,5.0,3000.0,2.0,7.0,5.0,2.0,,resale,furnished,unknown,unknown,unknown,21500000.0,24967572.610494487,3467572.610494487
+panchkula,sector-20,unknown,apartment,3.0,1450.0,4.0,11.0,3.0,3.0,,new property,unfurnished,north - east,freehold,"garden/park, pool, main road",6900000.0,7462467.571040954,562467.5710409544
+surat,adajan,akhand anand apartment,apartment,1.0,460.0,7.0,7.0,1.0,,,resale,unfurnished,south,freehold,main road,2000000.0,2671289.0832961737,671289.0832961737
+pune,kasaramboli- ghotwade phata,unknown,apartment,1.0,550.0,3.0,4.0,1.0,1.0,4.0,resale,unfurnished,west,co-operative society,unknown,1900000.0,5317404.450031435,3417404.450031435
+faridabad,sector 81,bptp eden estate sector 81,apartment,3.0,2200.0,2.0,4.0,3.0,2.0,2.0,resale,semi-furnished,east,freehold,main road,13799999.999999998,14383954.540455831,583954.5404558331
+vadodara,vasna bhayli main road,unknown,apartment,2.0,900.0,2.0,4.0,2.0,1.0,1.0,resale,semi-furnished,west,freehold,unknown,2700000.0,3587672.8142815367,887672.8142815367
+new-delhi,mayur vihar 1,unknown,apartment,3.0,850.0,1.0,4.0,2.0,1.0,1.0,resale,semi-furnished,north - east,freehold,main road,7500000.0,11123341.868980164,3623341.8689801637
+surat,citylight area,unknown,apartment,3.0,1900.0,6.0,12.0,3.0,1.0,,resale,semi-furnished,east,co-operative society,"garden/park, main road",8100000.0,8892802.991197968,792802.9911979679
+ahmedabad,jodhpur village jodhpur,pruthvi tower,villa,3.0,1600.0,4.0,10.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,9300000.0,9482469.287042744,182469.28704274446
+noida,amrapali silicon city sector 76,unknown,apartment,2.0,875.0,0.0,18.0,2.0,3.0,,resale,semi-furnished,north - east,co-operative society,"pool, garden/park",5490000.0,6064177.785643458,574177.7856434584
+pune,magarpatta,kiarah terrazo,apartment,2.0,762.0,5.0,16.0,2.0,2.0,1.0,new property,unfurnished,east,freehold,garden/park,7100000.0,11037006.169898812,3937006.1698988117
+new-delhi,g block-saket,metrotech builder floors,builder floor,3.0,800.0,,,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4760000.0,9189298.882267013,4429298.882267013
+greater-noida,sector 16,mahagun mywoods phase iii,apartment,2.0,960.0,20.0,28.0,2.0,3.0,,resale,unfurnished,west,leasehold,"garden/park, pool, main road",4900000.0,5967103.0135275535,1067103.0135275535
+bhiwadi,piyush city,unknown,apartment,3.0,1448.0,3.0,3.0,2.0,,,resale,unknown,unknown,unknown,unknown,3400000.0,3401407.189204938,1407.1892049377784
+kanpur,tilaknagar,sukhdham apartment,apartment,2.0,1150.0,4.0,12.0,2.0,3.0,1.0,resale,semi-furnished,north - east,freehold,main road,8000000.0,11161120.72880409,3161120.728804089
+thane,owale,unknown,apartment,1.0,467.0,5.0,7.0,1.0,2.0,,resale,unfurnished,east,freehold,"garden/park, main road",4500000.0,5780932.024865137,1280932.0248651374
+mohali,sector 127,sbp north valley,apartment,2.0,1200.0,3.0,6.0,2.0,2.0,1.0,resale,unfurnished,unknown,co-operative society,garden/park,4500000.0,4407516.496829666,92483.5031703338
+zirakpur,peer muchalla,panchkula heights,apartment,2.0,975.0,5.0,6.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,3800000.0,3315503.082563057,484496.9174369429
+faridabad,sector 89,tdi the retreat,apartment,4.0,3825.0,3.0,4.0,5.0,2.0,2.0,new property,semi-furnished,east,freehold,main road,26000000.0,25432489.26283624,567510.7371637598
+chennai,tvs apartment urapakkam,unknown,apartment,3.0,1200.0,3.0,4.0,3.0,1.0,,resale,furnished,east,freehold,main road,17500000.0,10809356.967592115,6690643.032407885
+nagpur,nari road,unknown,apartment,3.0,900.0,1.0,3.0,3.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,5100000.0,6095437.821585422,995437.8215854224
+kolkata,baruipur,mayfair platinum,apartment,2.0,840.0,2.0,4.0,2.0,1.0,,resale,unfurnished,unknown,unknown,unknown,4000000.0,3767873.974630621,232126.0253693792
+goa,duler,cosme costa sunset boulevard,apartment,2.0,785.7654604191,1.0,5.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,6800000.0,5227147.923997632,1572852.0760023678
+ahmedabad,nava vadaj,unknown,apartment,3.0,1260.0,5.0,5.0,3.0,2.0,1.0,resale,furnished,east,freehold,main road,10000000.0,8987491.525546873,1012508.474453127
+faridabad,sector 76,bptp park floors 2,apartment,2.0,950.0,1.0,4.0,2.0,2.0,1.0,resale,unfurnished,east,freehold,garden/park,4540000.0,3686684.714965503,853315.2850344968
+patna,ram krishna puram,unknown,apartment,3.0,1000.0,5.0,7.0,2.0,3.0,,new property,unfurnished,east,freehold,"garden/park, pool, main road",6250000.0,7708002.98522347,1458002.9852234703
+greater-noida,zeta 1,ats dolce,apartment,2.0,1240.0,8.0,24.0,2.0,3.0,,new property,semi-furnished,north - east,leasehold,"pool, garden/park, main road",6580000.0,6779607.928760772,199607.92876077164
+noida,sector 137 noida express way,unknown,apartment,3.0,1675.0,5.0,14.0,4.0,4.0,,resale,semi-furnished,north - east,leasehold,"garden/park, main road",7700000.0,13689352.456570549,5989352.456570549
+goa,tivim,unknown,apartment,2.0,861.112833336,1.0,4.0,2.0,1.0,20.0,new property,unfurnished,unknown,freehold,main road,6300000.0,4623341.392473265,1676658.6075267354
+jaipur,gopal pura by pass,safe parkwoods,apartment,3.0,1380.0,3.0,5.0,3.0,2.0,,resale,semi-furnished,north,freehold,main road,8100000.0,6597403.384069916,1502596.6159300841
+ahmedabad,vastrapur,sheetal westpark residency,apartment,3.0,1200.0,8.0,14.0,3.0,1.0,,resale,semi-furnished,east,freehold,"main road, garden/park, pool",14500000.0,12198420.90056951,2301579.0994304903
+vadodara,maneja,sahaj florencia,apartment,3.0,980.0,1.0,5.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,3800000.0,4478034.624153611,678034.6241536113
+kolkata,block a lake town,sangam complex,apartment,2.0,825.0,4.0,4.0,2.0,2.0,,resale,semi-furnished,south,freehold,unknown,4000000.0,4135552.430809094,135552.4308090941
+surat,jahangirabad,nakshatra nebula,apartment,2.0,707.0,6.0,14.0,2.0,1.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, main road",4550000.0,3445416.030555027,1104583.969444973
+kolkata,ultadanga,merlin warden lake view,apartment,3.0,1275.0,8.0,13.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,8500000.0,8849936.903395407,349936.9033954069
+bangalore,brigade woods itpl whitefield,unknown,apartment,2.0,1050.0,4.0,4.0,2.0,2.0,1.0,resale,semi-furnished,east,freehold,main road,16000000.0,6407821.613825552,9592178.386174448
+pune,sanaswadi,aapla ghar sanaswadi,apartment,1.0,404.0,4.0,4.0,1.0,1.0,,resale,unfurnished,south - east,freehold,garden/park,1300000.0,3465813.7090842193,2165813.7090842193
+goa,vasco da gama,umiya sundance,apartment,2.0,1211.0,,,2.0,,,new property,unfurnished,unknown,unknown,unknown,6310000.0,6180084.061112772,129915.93888722826
+ahmedabad,satellite,sagar tower,apartment,2.0,1125.0,6.0,10.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,6000000.0,5621515.130312246,378484.86968775373
+hyderabad,nagole,unknown,apartment,2.0,990.0,2.0,5.0,2.0,2.0,1.0,resale,semi-furnished,north,freehold,"garden/park, pool, main road",4900000.0,6384606.29312249,1484606.29312249
+gurgaon,nirvana country pocket h sector 50 sohna road,unitech fresco,apartment,3.0,1877.0,12.0,19.0,3.0,3.0,1.0,resale,unfurnished,north - east,freehold,"garden/park, pool, main road",17500000.0,17959866.146067817,459866.14606781676
+gurgaon,sector 79,bestech altura,apartment,3.0,2050.0,4.0,4.0,3.0,4.0,1.0,new property,semi-furnished,north,freehold,"pool, garden/park, main road",16200000.000000002,18079821.78219745,1879821.7821974475
+chennai,sri mahalakshmi mandira golden george nagar,unknown,apartment,2.0,950.0,4.0,4.0,2.0,2.0,,resale,unfurnished,unknown,unknown,unknown,8200000.0,6124980.695537366,2075019.304462634
+kolkata,new town,ps amistad,apartment,3.0,780.0,10.0,16.0,2.0,1.0,1.0,resale,unfurnished,south - east,freehold,main road,12800000.0,12440283.195358124,359716.80464187637
+ghaziabad,nh 24,organic homes,apartment,3.0,1425.0,,,2.0,,1.0,new property,semi-furnished,unknown,unknown,unknown,6130000.0,5761941.989761966,368058.0102380337
+bangalore,varthur,unknown,apartment,3.0,1200.0,2.0,4.0,2.0,2.0,1.0,new property,semi-furnished,east,freehold,"garden/park, pool, main road",11299999.999999998,9047801.014642071,2252198.985357927
+faridabad,sector 85,bptp park elite floors,apartment,3.0,1850.0,1.0,3.0,2.0,2.0,1.0,resale,unfurnished,north - west,freehold,garden/park,6500000.0,5966911.526306119,533088.4736938812
+ghaziabad,sain vihar,assotech the nest,apartment,3.0,1285.0,9.0,20.0,2.0,4.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, pool, main road",4500000.0,5384954.627264049,884954.6272640489
+ahmedabad,vatva,unknown,apartment,2.0,684.0,2.0,7.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,1500000.0,3600366.0004255944,2100366.0004255944
+guwahati,borsojai,shangri la towers,apartment,2.0,1289.0,,,2.0,,,new property,unfurnished,unknown,unknown,unknown,6320000.0,6556463.198976029,236463.1989760287
+gurgaon,sector 83,unknown,apartment,3.0,1850.0,10.0,35.0,3.0,3.0,1.0,new property,semi-furnished,east,freehold,garden/park,15000000.0,16216957.294888567,1216957.2948885672
+vadodara,alkapuri,hari bhakti extension,apartment,3.0,1460.0,2.0,4.0,3.0,2.0,1.0,resale,furnished,east,freehold,unknown,11100000.000000002,8975298.288433347,2124701.711566655
+surat,adajan,unknown,apartment,4.0,2565.0,5.0,14.0,4.0,1.0,1.0,resale,unfurnished,east,freehold,"garden/park, main road",13500000.0,17324370.668541837,3824370.6685418375
+bangalore,mana candela sarjapur road,unknown,apartment,2.0,1071.0,2.0,5.0,2.0,,,resale,furnished,unknown,unknown,unknown,5600000.0,6051049.515737939,451049.5157379387
+sonipat,sector 15,unknown,apartment,2.0,660.0,1.0,2.0,3.0,2.0,,resale,furnished,north,freehold,unknown,2500000.0,7571289.510987401,5071289.510987401
+dehradun,sahastradhara road,panache heights,apartment,2.0,1042.0,6.0,7.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,5700000.0,4745702.076804987,954297.9231950128
+lucknow,gomtinagar extention,sharda apartment,apartment,3.0,1340.0,2.0,10.0,3.0,3.0,,resale,furnished,north - west,freehold,"garden/park, main road",9300000.0,10522180.293519845,1222180.2935198452
+chandigarh,dhakoli,imperial apartments,apartment,3.0,1450.0,1.0,4.0,3.0,2.0,,new property,semi-furnished,north - east,freehold,garden/park,6590000.000000001,8556672.005996872,1966672.0059968708
+satara,deeplaxmi complex mangalwar peth,unknown,apartment,1.0,650.0,3.0,3.0,1.0,1.0,,resale,semi-furnished,west,freehold,unknown,1800000.0,2793432.0571253994,993432.0571253994
+ernakulam,panampilly nagar,unknown,apartment,3.0,1755.0,1.0,10.0,3.0,3.0,,resale,semi-furnished,north - east,freehold,main road,8000000.0,9001256.784450589,1001256.7844505887
+faridabad,sector 45 mathura road,gokul apartments,apartment,3.0,1650.0,8.0,9.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,9500000.0,8161854.932503364,1338145.067496636
+raipur,shankar nagar,unknown,apartment,2.0,856.0,1.0,2.0,1.0,2.0,,resale,unfurnished,unknown,unknown,unknown,2200000.0,2806863.5770426677,606863.5770426677
+sonipat,tdi city kundli,unknown,apartment,4.0,1900.0,4.0,4.0,3.0,2.0,1.0,new property,furnished,north,freehold,"garden/park, main road",6000000.0,5992671.3206539275,7328.6793460724875
+dehradun,niranjanpur,unknown,apartment,3.0,1740.0,2.0,6.0,2.0,2.0,1.0,resale,semi-furnished,north,freehold,"garden/park, main road",8000000.0,8043801.3318958515,43801.33189585153
+gurgaon,sector 104,puri emerald bay,apartment,2.0,1700.0,,,2.0,,1.0,new property,semi-furnished,unknown,unknown,unknown,16000000.0,15820782.077692958,179217.9223070424
+goa,dona paula,unknown,apartment,5.0,3336.812229177,4.0,7.0,4.0,3.0,1.0,resale,furnished,north - east,freehold,unknown,31500000.0,41072492.06178241,9572492.061782412
+ahmedabad,bodakdev,31 ivy,apartment,3.0,2646.0,7.0,9.0,3.0,,,new property,unfurnished,unknown,unknown,unknown,20000000.0,17785384.515800383,2214615.484199617
+mumbai,kanjurmarg east,runwal bliss,apartment,2.0,797.0,24.0,52.0,2.0,,1.0,new property,unfurnished,east,freehold,"garden/park, main road",19000000.0,27053040.812273435,8053040.812273435
+greater-noida,sector 16,mahagun mywoods phase iii,apartment,2.0,750.0,11.0,18.0,2.0,1.0,1.0,resale,semi-furnished,north - east,leasehold,garden/park,4300000.0,5348857.212612521,1048857.212612521
+ludhiana,pakhowal road,omaxe royal residency,apartment,3.0,2200.0,4.0,13.0,3.0,3.0,,resale,unfurnished,east,freehold,unknown,17000000.0,14634000.213217907,2365999.7867820933
+nashik,umang nasik,unknown,apartment,1.0,500.0,2.0,5.0,1.0,1.0,,resale,unfurnished,east,unknown,unknown,2400000.0,2389110.931924489,10889.068075511139
+jaipur,mansarovar extension,the sunlight,apartment,3.0,1155.0,2.0,6.0,2.0,1.0,1.0,new property,semi-furnished,east,freehold,main road,4600000.0,4822031.982725585,222031.98272558488
+chennai,madambakkam,unknown,apartment,2.0,613.0,5.0,5.0,1.0,,1.0,new property,unfurnished,east,freehold,"garden/park, main road",6000000.0,2960067.6599036003,3039932.3400963997
+vadodara,old padra road,unknown,apartment,3.0,1400.0,3.0,4.0,3.0,3.0,1.0,new property,furnished,east,freehold,"pool, garden/park, main road",10500000.0,7623194.312736487,2876805.687263513
+trivandrum,sastamangalam,unknown,apartment,3.0,1751.0,7.0,18.0,3.0,3.0,1.0,new property,unfurnished,east,freehold,main road,16000000.0,13937209.47533272,2062790.5246672798
+faridabad,sector 86,amolik residency,apartment,3.0,1100.0,3.0,4.0,3.0,2.0,2.0,resale,semi-furnished,east,freehold,main road,6700000.0,7380222.615433098,680222.6154330978
+chennai,chamiers road,unknown,apartment,3.0,1500.0,,,3.0,,2.0,resale,semi-furnished,north,freehold,main road,5200000.0,18840804.761867464,13640804.761867464
+jaipur,ajmer road,nakshatra,apartment,3.0,1485.0,3.0,4.0,3.0,,,resale,furnished,unknown,unknown,unknown,4500000.0,5166472.950399308,666472.9503993085
+new-delhi,krishna nagar,unknown,apartment,3.0,1000.0,1.0,4.0,3.0,,,resale,furnished,unknown,unknown,unknown,9000000.0,11689985.777079891,2689985.7770798914
+jaipur,jagatpura,dnd royale platinum,apartment,3.0,1700.0,9.0,9.0,3.0,3.0,,new property,unfurnished,north,freehold,garden/park,5100000.0,5992514.4552441435,892514.4552441435
+badlapur,belavali,unknown,apartment,1.0,650.0,1.0,5.0,1.0,,,resale,unfurnished,unknown,unknown,unknown,2400000.0,2422850.033887977,22850.03388797678
+guntur,s v n colony,unknown,apartment,3.0,2525.0,2.0,5.0,3.0,1.0,1.0,new property,furnished,east,freehold,main road,12000000.0,13849293.05357705,1849293.0535770506
+bangalore,sattva misty charm kanakapura road,unknown,apartment,2.0,725.0,12.0,13.0,2.0,1.0,1.0,resale,unfurnished,east,freehold,garden/park,7500000.0,6979253.196096118,520746.8039038824
+new-delhi,defence colony,unknown,apartment,4.0,3285.0,1.0,4.0,4.0,4.0,2.0,new property,semi-furnished,north - east,freehold,garden/park,100000000.0,106511853.63018459,6511853.630184591
+jaipur,mansarovar extension,urban park,apartment,2.0,1050.0,,,2.0,,1.0,new property,semi-furnished,unknown,unknown,unknown,4000000.0,3754863.930697199,245136.06930280104
+chennai,anakaputhur,unknown,apartment,2.0,700.0,1.0,2.0,2.0,,1.0,new property,unfurnished,east,freehold,garden/park,3360000.0,4900600.398989873,1540600.398989873
+chandigarh,zirakpur,uptown skylla,apartment,3.0,1100.0,5.0,11.0,3.0,4.0,1.0,new property,unfurnished,east,freehold,"pool, garden/park, main road",9780000.0,10045004.352962907,265004.3529629074
+ahmedabad,vasna,unknown,apartment,2.0,850.0,5.0,5.0,2.0,1.0,,resale,furnished,east,freehold,garden/park,4200000.0,5283112.384126468,1083112.3841264676
+visakhapatnam,kurmannapalem,unknown,apartment,2.0,1050.0,2.0,5.0,2.0,1.0,,new property,unfurnished,east,freehold,main road,3700000.0,3507854.9554323903,192145.04456760967
+ahmedabad,nikol,unknown,apartment,1.0,500.0,1.0,4.0,1.0,,,resale,semi-furnished,unknown,unknown,unknown,2300000.0,1510117.3865371607,789882.6134628393
+kolkata,kaikhali,unknown,apartment,2.0,947.0,4.0,7.0,2.0,1.0,,resale,unfurnished,unknown,freehold,unknown,3400000.0,4211811.849878883,811811.849878883
+mohali,sector 123 sihanpur,unknown,apartment,2.0,750.0,2.0,3.0,2.0,2.0,,new property,semi-furnished,east,freehold,"garden/park, main road",4000000.0,3874452.2979240757,125547.70207592426
+faridabad,sector 16 mathura road,unknown,apartment,3.0,1890.0,4.0,4.0,3.0,2.0,,new property,unfurnished,north - east,freehold,garden/park,12100000.0,12486738.06214176,386738.0621417593
+kalyan,tata amantra,unknown,apartment,3.0,1398.0,17.0,34.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,9000000.0,13512347.98704812,4512347.987048119
+solapur,modi khana,unknown,apartment,3.0,700.0,2.0,4.0,1.0,1.0,,resale,unfurnished,east,unknown,main road,3800000.0,2768719.0369222215,1031280.9630777785
+hyderabad,lanco hills lanco hills road,unknown,apartment,3.0,1575.0,16.0,21.0,3.0,1.0,4.0,resale,semi-furnished,west,freehold,"garden/park, pool, main road",14000000.0,17904089.279595174,3904089.279595174
+vijayawada,poranki,unknown,apartment,2.0,970.0,3.0,3.0,2.0,1.0,,resale,semi-furnished,west,freehold,main road,4500000.0,3476944.804200409,1023055.195799591
+jaipur,chitrakoot,unknown,apartment,2.0,1120.0,2.0,3.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4500000.0,3923080.90425065,576919.0957493498
+hyderabad,pranavas lotus park kondapur,unknown,apartment,2.0,1045.0,0.0,5.0,2.0,2.0,,resale,semi-furnished,east,freehold,garden/park,10000000.0,6170459.343792013,3829540.656207987
+ranchi,hinoo,unknown,apartment,3.0,1120.0,2.0,3.0,2.0,2.0,1.0,resale,semi-furnished,north - east,freehold,main road,7000000.0,6458701.40515653,541298.5948434696
+gurgaon,sector 37c delhi gurgaon expressway,ild grand,apartment,2.0,1310.0,8.0,15.0,2.0,2.0,1.0,resale,unfurnished,east,freehold,"garden/park, main road",7520000.0,7920509.9088945845,400509.9088945845
+faridabad,greenfield colony mathura road,unknown,apartment,3.0,1460.0,3.0,4.0,3.0,2.0,1.0,new property,unfurnished,east,freehold,"garden/park, main road",8550000.0,8346231.230788387,203768.76921161264
+jaipur,durgapura,unknown,apartment,2.0,700.0,1.0,2.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4000000.0,6907401.340929343,2907401.3409293434
+new-delhi,nehru enclave kalkaji,unknown,apartment,3.0,1450.0,1.0,4.0,3.0,3.0,2.0,new property,semi-furnished,north,freehold,garden/park,35000000.0,41794459.88378892,6794459.883788921
+visakhapatnam,marikavalasa road,unknown,apartment,3.0,1470.0,4.0,5.0,3.0,2.0,,resale,unfurnished,north,freehold,garden/park,7200000.0,8491778.656723686,1291778.6567236856
+jamshedpur,sakchi,unknown,apartment,3.0,1170.0,4.0,5.0,2.0,1.0,,resale,unfurnished,south - east,freehold,main road,6800000.0,5011162.97430719,1788837.0256928103
+badlapur,kharwai naka,unknown,apartment,1.0,550.0,3.0,7.0,1.0,2.0,2.0,resale,semi-furnished,south,freehold,garden/park,1870000.0,3032775.2838272974,1162775.2838272974
+kochi,vazhakkala,kent oakville,apartment,3.0,1600.0,3.0,3.0,3.0,2.0,1.0,resale,unfurnished,east,freehold,unknown,11800000.0,10970151.33518064,829848.6648193598
+visakhapatnam,visakhapatnam,unknown,apartment,3.0,1560.0,1.0,5.0,3.0,2.0,,resale,unfurnished,north,freehold,"garden/park, main road",5000000.0,9073417.037121948,4073417.037121948
+coimbatore,peelamedu,tvh ekanta,apartment,2.0,1105.0,1.0,4.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4970000.0,6446044.47930826,1476044.4793082597
+hyderabad,green grace gachibowli,unknown,apartment,3.0,2600.0,12.0,15.0,4.0,2.0,2.0,resale,semi-furnished,west,freehold,"garden/park, pool, main road",32000000.0,29323017.069727127,2676982.9302728735
+chennai,thiruverkadu,unknown,apartment,3.0,1151.0,2.0,4.0,3.0,2.0,2.0,new property,unfurnished,south,freehold,main road,8500000.0,13083497.07593446,4583497.07593446
+kolkata,thakurpukur,unknown,apartment,2.0,1000.0,2.0,5.0,3.0,,,resale,furnished,unknown,unknown,unknown,3800000.0,6938782.19095069,3138782.19095069
+vadodara,gorwa,unknown,apartment,3.0,700.0,8.0,13.0,2.0,2.0,,resale,unfurnished,unknown,unknown,unknown,3100000.0,3563610.563123306,463610.5631233058
+kolkata,rajarhat,salarpuria silver oak estate,apartment,3.0,1512.0,7.0,10.0,2.0,2.0,,resale,unfurnished,south - east,freehold,main road,10500000.0,8509054.663836699,1990945.336163301
+kanpur,maa kripa,unknown,apartment,3.0,1050.0,0.0,4.0,3.0,,1.0,resale,unfurnished,south -west,freehold,main road,5000000.0,6834779.763450601,1834779.7634506011
+greater-noida,greater noida west,gaur saundaryam,apartment,3.0,1550.0,10.0,21.0,3.0,3.0,1.0,resale,semi-furnished,east,freehold,"garden/park, pool, main road",15800000.0,15447615.532759484,352384.4672405161
+udupi,ambagilu,unknown,apartment,2.0,1290.0,2.0,2.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4600000.0,4086357.7985011744,513642.20149882557
+bangalore,ds max sterling varthur,unknown,apartment,2.0,1137.0,3.0,4.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,5000000.0,6087895.491052517,1087895.4910525167
+pune,alandi kelgaon,unknown,apartment,1.0,582.0,2.0,4.0,1.0,1.0,1.0,resale,unfurnished,unknown,co-operative society,unknown,2200000.0,3721779.704101827,1521779.704101827
+gurgaon,sector 47,malibu town,apartment,4.0,1800.0,2.0,4.0,4.0,2.0,2.0,resale,semi-furnished,north - east,freehold,main road,31200000.0,24342034.702888858,6857965.297111142
+surat,dumas road,avadh carolina,apartment,3.0,1840.0,6.0,12.0,3.0,4.0,,resale,unfurnished,east,freehold,garden/park,9000000.0,8943533.405015947,56466.5949840527
+zirakpur,peer muchalla,imperial residency,apartment,2.0,1275.0,1.0,7.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4400000.0,4630096.339865136,230096.33986513596
+ahmedabad,shyamal cross road,sagun jyoti,apartment,3.0,1530.0,4.0,10.0,3.0,,,resale,furnished,unknown,unknown,unknown,9000000.0,9249997.503549967,249997.50354996696
+bhubaneswar,madanpur,dn fairytale,apartment,2.0,1317.0,,,2.0,,1.0,new property,unfurnished,unknown,unknown,unknown,7740000.000000001,7363982.777014501,376017.22298549954
+new-delhi,dwarka sector 4,sarve satyam apartment,apartment,3.0,1600.0,7.0,10.0,3.0,4.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, main road",19200000.0,21837212.623483818,2637212.623483818
+jaipur,jagatpura,unknown,apartment,2.0,900.0,2.0,6.0,2.0,2.0,,new property,semi-furnished,north,freehold,"garden/park, main road",2900000.0,3309961.647573421,409961.6475734208
+pune,pimple gurav pimpri chinchwad,10 elite,apartment,2.0,1000.0,5.0,11.0,3.0,,,resale,unfurnished,unknown,unknown,unknown,7600000.0,8107322.485205056,507322.48520505615
+guwahati,dhirenpara,unknown,apartment,2.0,1100.0,2.0,2.0,2.0,2.0,,resale,unfurnished,unknown,unknown,unknown,4800000.0,5249138.475548659,449138.47554865945
+kochi,kakkanad,asten viveria,apartment,2.0,950.0,3.0,8.0,2.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,5200000.0,4822662.940107524,377337.0598924756
+visakhapatnam,gopalpatnam,unknown,apartment,2.0,1160.0,4.0,4.0,2.0,2.0,,resale,furnished,north,freehold,main road,6000000.0,5672424.603732236,327575.39626776427
+kolkata,sahapur new alipore,unknown,apartment,2.0,700.0,3.0,3.0,1.0,1.0,,resale,semi-furnished,unknown,unknown,unknown,2200000.0,2382378.204210351,182378.20421035122
+faridabad,sector 88,rps savana,apartment,3.0,1650.0,4.0,15.0,4.0,3.0,1.0,resale,semi-furnished,east,freehold,main road,9400000.0,8142408.9551169695,1257591.0448830305
+ghaziabad,raj nagar extension,aura chimera,apartment,2.0,980.0,1.0,10.0,1.0,,,resale,unfurnished,unknown,unknown,unknown,2600000.0,2481465.904212643,118534.09578735707
+gurgaon,sector 51,unknown,apartment,3.0,1350.0,1.0,4.0,3.0,2.0,1.0,new property,semi-furnished,north - east,freehold,"garden/park, main road",17900000.0,15764004.491342058,2135995.5086579416
+hyderabad,malakpet nh 9,unknown,apartment,2.0,1048.0,3.0,5.0,2.0,1.0,,resale,unfurnished,unknown,unknown,unknown,5000000.0,5487557.862889978,487557.8628899781
+ahmedabad,new ranip,shukan smile city,apartment,2.0,1300.0,3.0,5.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,4500000.0,4469268.8685349785,30731.13146502152
+gurgaon,malibu town sector 47,unknown,apartment,3.0,2500.0,1.0,4.0,3.0,2.0,2.0,new property,semi-furnished,north - east,freehold,"garden/park, main road",24900000.000000004,29672328.709080644,4772328.70908064
+hyderabad,bollineni bion kondapur,unknown,apartment,3.0,1965.0,10.0,24.0,3.0,1.0,1.0,new property,unfurnished,west,freehold,main road,22000000.0,21130920.926453337,869079.0735466629
+sonipat,kundli,unknown,apartment,2.0,600.0,1.0,3.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,850000.0,2150100.8971876344,1300100.8971876344
+hyderabad,l&t serene county gachibowli,unknown,apartment,3.0,1495.0,1.0,1.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,12000000.0,8476263.941757008,3523736.0582429916
+jaipur,vaishali nagar,rangoli gardens,apartment,2.0,980.0,1.0,12.0,3.0,1.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, pool, main road",5800000.0,5870471.089186533,70471.08918653335
+lucknow,daliganj,unknown,apartment,2.0,1050.0,1.0,6.0,3.0,,,resale,unfurnished,unknown,unknown,unknown,3500000.0,5451486.839693336,1951486.8396933358
+jaipur,uday nagar,unknown,apartment,3.0,1670.0,3.0,6.0,3.0,,,resale,unknown,unknown,unknown,unknown,7520000.0,7416223.62005263,103776.37994736992
+visakhapatnam,atchutapuram,unknown,apartment,2.0,960.0,1.0,5.0,2.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,2000000.0,3560596.206912622,1560596.2069126219
+hyderabad,mla colony banjara hills,unknown,apartment,3.0,2200.0,1.0,3.0,3.0,1.0,2.0,resale,furnished,east,freehold,main road,25000000.0,21637684.02921892,3362315.9707810804
+new-delhi,mohan garden razapur khurd,unknown,apartment,1.0,450.0,4.0,5.0,1.0,,,resale,unfurnished,unknown,unknown,unknown,1300000.0,2816620.5163576924,1516620.5163576924
+jamshedpur,adityapur,sunrise apartment,apartment,2.0,1124.0,,,2.0,,,new property,unfurnished,unknown,unknown,unknown,3650000.0,4059007.3635483193,409007.3635483193
+gurgaon,dlf city phase 1,luxury floors,apartment,4.0,2745.0,2.0,4.0,5.0,5.0,1.0,new property,semi-furnished,east,freehold,"garden/park, pool, main road",30000000.0,34360957.54389466,4360957.543894663
+chandigarh,zirakpur,sushma grande,apartment,3.0,2080.0,15.0,15.0,3.0,4.0,,new property,semi-furnished,north - east,freehold,"pool, garden/park, main road",12500000.0,10802895.496568155,1697104.5034318455
+gurgaon,sector 70,tulip orange,apartment,3.0,950.0,6.0,11.0,2.0,3.0,,resale,semi-furnished,north - east,freehold,"pool, garden/park, main road",8700000.0,8721307.288619203,21307.288619203493
+chennai,porur,unknown,apartment,3.0,990.0,1.0,3.0,3.0,2.0,1.0,new property,unfurnished,north,freehold,main road,9800000.0,8976276.860687314,823723.1393126864
+coimbatore,jewel manor apartment samy iyer new street coimbatore 641001,unknown,apartment,2.0,970.0,3.0,3.0,2.0,1.0,,resale,unfurnished,south,freehold,unknown,4000000.0,4567117.004642164,567117.0046421643
+bhopal,new minal residency,unknown,apartment,2.0,720.0,2.0,4.0,2.0,1.0,,resale,unfurnished,east,freehold,unknown,2900000.0,2076257.673081818,823742.326918182
+thrissur,ayyanthole,unknown,apartment,2.0,850.0,0.0,1.0,2.0,2.0,,resale,semi-furnished,west,freehold,"garden/park, main road",3300000.0,3814174.6275369916,514174.6275369916
+mangalore,falnir,unknown,apartment,3.0,2800.0,5.0,5.0,3.0,3.0,,resale,furnished,north - east,freehold,main road,12500000.0,14354379.718611151,1854379.718611151
+mohali,sector 66,noble callista,apartment,3.0,1751.0,3.0,3.0,4.0,3.0,2.0,new property,semi-furnished,north - east,freehold,garden/park,21000000.0,20537130.62505895,462869.374941051
+hyderabad,aparna hill park silver oaks chanda nagar,unknown,apartment,3.0,1565.0,0.0,13.0,3.0,1.0,,resale,unfurnished,west,freehold,"garden/park, pool, main road",14000000.0,12439512.955565525,1560487.0444344748
+dehradun,dehrakhas,palm city,apartment,3.0,1400.0,2.0,2.0,3.0,2.0,,resale,unfurnished,north - west,unknown,garden/park,5800000.0,6729750.009015588,929750.0090155881
+surat,pal,unknown,apartment,3.0,1180.0,2.0,10.0,3.0,1.0,1.0,new property,unfurnished,east,freehold,"garden/park, main road",10700000.0,8857317.56958249,1842682.4304175097
+greater-noida,zeta 1,unknown,apartment,4.0,1445.0,2.0,2.0,2.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,8200000.0,5886983.886887499,2313016.113112501
+vijayawada,gannavaram,ayyappa towers apartment,apartment,3.0,1000.0,-2.0,5.0,3.0,,,resale,semi-furnished,unknown,unknown,unknown,4900000.0,4849947.865891689,50052.134108310565
+gurgaon,sector 37d delhi gurgaon expressway,bptp terra,apartment,4.0,2213.0,14.0,23.0,3.0,3.0,1.0,new property,semi-furnished,south - east,freehold,"garden/park, pool, main road",18500000.0,23881713.022196595,5381713.022196595
+faridabad,sector 49,unknown,apartment,3.0,1377.0,2.0,4.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4500000.0,5244161.934803951,744161.9348039506
+faridabad,sector 70,mulberry county,apartment,2.0,1050.0,1.0,13.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,3800000.0,3528347.4673922276,271652.5326077724
+chandigarh,zirakpur,sushma valencia,apartment,3.0,1400.0,2.0,4.0,3.0,3.0,1.0,new property,semi-furnished,north - east,co-operative society,"garden/park, pool, main road",9900000.0,8295992.060785006,1604007.9392149942
+gurgaon,sector 54,dlf crest,apartment,4.0,3500.0,12.0,30.0,4.0,4.0,2.0,resale,semi-furnished,north,freehold,garden/park,115000000.0,112471302.11733767,2528697.882662326
+bhiwadi,tapukara,krish city,apartment,3.0,975.0,3.0,4.0,3.0,3.0,,new property,unfurnished,north - east,freehold,garden/park,1800000.0,4321897.527459113,2521897.527459113
+pune,viman nagar,unknown,apartment,2.0,1200.0,3.0,13.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,6500000.0,10423343.624838667,3923343.624838667
+pune,kothrud,srushti apartment kothrud,apartment,1.0,550.0,0.0,4.0,1.0,1.0,1.0,resale,semi-furnished,east,freehold,main road,6200000.0,10169257.195728201,3969257.1957282014
+chennai,agaram,unknown,apartment,3.0,1152.0,1.0,1.0,3.0,,,resale,semi-furnished,west,freehold,main road,5800000.0,9693096.111936212,3893096.1119362116
+kochi,edachira,manjooran rowan park scarlet,apartment,1.0,625.0,3.0,17.0,1.0,1.0,1.0,resale,unfurnished,north,freehold,"pool, main road",3000000.0,3216880.309775872,216880.30977587216
+bhubaneswar,kalarahanga,unknown,apartment,3.0,1142.0,3.0,5.0,3.0,2.0,,new property,unfurnished,east,freehold,garden/park,6250000.0,8717613.505902885,2467613.5059028845
+jamshedpur,mango,triveni bhaskar city,apartment,3.0,1570.0,,,2.0,,,new property,unfurnished,unknown,unknown,unknown,6440000.000000001,6563276.024106905,123276.02410690393
+greater-noida,eldeco green meadows sector-pi,eldeco arcadia shopping complex,apartment,3.0,1180.0,3.0,3.0,3.0,3.0,1.0,resale,semi-furnished,east,leasehold,"garden/park, pool, main road",8000000.0,7704712.875624575,295287.1243754253
+ahmedabad,nikol,manisha merriott sky,apartment,3.0,2250.0,3.0,7.0,3.0,,,resale,furnished,unknown,unknown,unknown,9500000.0,9304103.188773947,195896.81122605316
+faridabad,greenfield colony mathura road,unknown,apartment,3.0,1650.0,1.0,2.0,2.0,1.0,1.0,resale,semi-furnished,east,freehold,unknown,7800000.0,6569739.286828626,1230260.713171374
+vadodara,sama,unknown,apartment,2.0,1175.0,3.0,4.0,2.0,1.0,1.0,resale,semi-furnished,east,freehold,unknown,3650000.0,4935983.914334404,1285983.9143344043
+greater-noida,sector 1,unknown,apartment,1.0,650.0,1.0,3.0,1.0,,,resale,unfurnished,east,freehold,unknown,1850000.0,913552.3705561184,936447.6294438816
+chennai,akshaya today kelambakkam,unknown,apartment,2.0,735.0,12.0,17.0,2.0,1.0,1.0,resale,semi-furnished,north,freehold,"garden/park, main road",4500000.0,6556545.199850661,2056545.1998506607
+nagpur,wanadongri,krishna flora,apartment,2.0,965.0,3.0,5.0,2.0,,,resale,unfurnished,unknown,freehold,unknown,2200000.0,4303707.369276033,2103707.369276033
+kolkata,rajarhat,vedic village,villa,2.0,950.0,4.0,5.0,2.0,2.0,,new property,unfurnished,north - east,unknown,garden/park,4950000.0,4101478.836246836,848521.163753164
+greater-noida,zeta 1,purvanchal heights,apartment,3.0,1830.0,6.0,12.0,4.0,4.0,1.0,resale,semi-furnished,north - east,leasehold,"garden/park, pool, main road",11200000.000000002,10517064.56592744,682935.4340725616
+zirakpur,gazipur,bollywood esencia,apartment,3.0,1950.0,3.0,4.0,3.0,2.0,,new property,unfurnished,north,freehold,"garden/park, pool, main road",5990000.0,6685565.552888753,695565.5528887529
+new-delhi,sarita vihar mathura road,unknown,apartment,3.0,1450.0,2.0,4.0,2.0,2.0,,resale,semi-furnished,east,freehold,garden/park,15400000.0,20014875.110355005,4614875.110355005
+chennai,bollineni hillside phase ii sholinganallur,unknown,apartment,3.0,1560.0,0.0,3.0,3.0,1.0,1.0,resale,unfurnished,east,freehold,garden/park,7200000.0,11467851.085221406,4267851.085221406
+noida,jaypee greens imperial court sector 128 noida express way,unknown,apartment,4.0,3628.0,17.0,33.0,4.0,2.0,1.0,resale,semi-furnished,east,leasehold,"garden/park, pool",42000000.0,49112567.73284957,7112567.732849568
+zirakpur,zirakpur,unknown,apartment,3.0,980.0,,,3.0,3.0,1.0,new property,semi-furnished,north - east,freehold,"garden/park, pool, main road",6400000.0,6307999.541672527,92000.45832747314
+bhiwadi,alwar bypass road,omaxe green meadow city,apartment,2.0,1094.0,2.0,3.0,2.0,2.0,1.0,resale,unfurnished,north - east,freehold,main road,2340000.0,2227838.830840161,112161.16915983893
+ranchi,argora,unknown,apartment,2.0,1150.0,5.0,9.0,2.0,1.0,2.0,new property,semi-furnished,east,freehold,"garden/park, main road",5060000.0,6022462.03018649,962462.0301864902
+faridabad,neharpar,bptp grandeura,apartment,2.0,1250.0,6.0,14.0,2.0,2.0,1.0,resale,furnished,east,freehold,main road,6150000.0,5911578.953756166,238421.0462438343
+surat,vip road,shiv shrungal solitaire,apartment,2.0,725.0,3.0,15.0,2.0,3.0,,resale,unfurnished,east,freehold,"garden/park, main road",5350000.0,5313745.331689353,36254.6683106469
+kolkata,kalikapur haltu,unknown,apartment,3.0,1004.0,2.0,,2.0,1.0,1.0,resale,unfurnished,north,unknown,main road,5700000.0,6301243.354072143,601243.3540721433
+ghaziabad,raj nagar extension,devika skypers,apartment,3.0,1076.0,8.0,12.0,2.0,2.0,,resale,semi-furnished,east,unknown,pool,3900000.0,5204278.578158633,1304278.5781586329
+surat,new citylight,pooja aagam cross roads,apartment,3.0,1440.0,5.0,11.0,2.0,2.0,,resale,semi-furnished,east,co-operative society,"pool, main road",8640000.0,6139611.59572772,2500388.4042722797
+coimbatore,puliakulam,unknown,apartment,2.0,1030.0,1.0,4.0,2.0,,,resale,furnished,unknown,unknown,unknown,4630000.0,4911740.199802904,281740.1998029044
+jaipur,sanganer,mumal residency,apartment,2.0,750.0,5.0,5.0,2.0,1.0,,new property,semi-furnished,unknown,unknown,unknown,2400000.0,2251343.0693476023,148656.93065239768
+ghaziabad,indirapuram,unknown,apartment,2.0,1050.0,2.0,4.0,2.0,1.0,,new property,semi-furnished,east,freehold,main road,6550000.0,4980680.67052477,1569319.3294752296
+patna,danapur khagaul road,sarvayoni city,apartment,3.0,1160.0,8.0,10.0,2.0,3.0,,new property,unfurnished,east,freehold,"garden/park, pool, main road",8100000.0,9077282.276964063,977282.2769640628
+bhiwadi,alwar bypass road,hill view garden,apartment,3.0,1400.0,4.0,7.0,2.0,1.0,,resale,furnished,east,leasehold,"main road, garden/park, pool",2800000.0,3381966.9579178616,581966.9579178616
+kolkata,baghajatin colony,unknown,apartment,1.0,450.0,0.0,5.0,1.0,,,resale,semi-furnished,unknown,unknown,unknown,2200000.0,1947109.8489490624,252890.1510509376
+hyderabad,jyothi cosmos hitech city,unknown,apartment,4.0,4320.0,13.0,17.0,4.0,,,resale,unfurnished,unknown,unknown,unknown,38400000.0,47095291.33841997,8695291.338419966
+nagpur,koradi road,unknown,apartment,2.0,950.0,4.0,7.0,2.0,2.0,,resale,unfurnished,west,freehold,main road,1600000.0,5163623.836842582,3563623.8368425816
+hyderabad,pragathi nagar kukatpally,unknown,apartment,2.0,1160.0,4.0,5.0,2.0,1.0,,new property,unfurnished,east,freehold,"garden/park, main road",5700000.0,5157066.671357206,542933.3286427939
+hyderabad,manjeera majestic homes kukatpally nh 9,unknown,apartment,2.0,825.0,1.0,23.0,2.0,2.0,,resale,furnished,unknown,freehold,garden/park,8500000.0,8574713.855256123,74713.85525612347
+greater-noida,eldeco green meadows sector-pi,eldeco arcadia shopping complex,apartment,3.0,1640.0,3.0,3.0,2.0,3.0,1.0,resale,semi-furnished,east,leasehold,"garden/park, pool, main road",9000000.0,8319799.061940348,680200.9380596522
+palakkad,kalmandapam,unknown,apartment,2.0,1300.0,0.0,1.0,2.0,2.0,,resale,furnished,unknown,freehold,"garden/park, main road",6600000.0,5957231.799330658,642768.2006693417
+badlapur,katrap,unknown,apartment,2.0,1100.0,2.0,7.0,2.0,4.0,,resale,unfurnished,east,freehold,unknown,4500000.0,5182352.653861144,682352.6538611436
+sonipat,tdi city kundli,unknown,apartment,4.0,1750.0,1.0,1.0,4.0,,,resale,semi-furnished,unknown,unknown,unknown,3500000.0,4981188.626180474,1481188.6261804737
+patna,ram krishna puram,unknown,apartment,3.0,880.0,1.0,7.0,2.0,3.0,,resale,unfurnished,west,freehold,"garden/park, pool",6780000.0,7521287.971780584,741287.9717805842
+greater-noida,pi 2,unitech horizon,apartment,3.0,1745.0,5.0,19.0,3.0,3.0,1.0,resale,semi-furnished,north - east,leasehold,"garden/park, pool, main road",6200000.0,6582673.312068791,382673.3120687911
+coimbatore,thudiyalur,unknown,apartment,2.0,690.0,0.0,3.0,2.0,,,resale,semi-furnished,east,freehold,unknown,2700000.0,3544684.0362443626,844684.0362443626
+ahmedabad,paldi,shri parshva orion,apartment,3.0,1881.0,1.0,13.0,3.0,,,new property,unfurnished,unknown,unknown,unknown,11399999.999999998,11011954.852242334,388045.1477576643
+palghar,near nagzari village,unknown,villa,2.0,578.0,0.0,4.0,2.0,3.0,1.0,resale,unfurnished,south - east,unknown,"pool, garden/park",5500000.0,3002332.38682132,2497667.61317868
+bhopal,hoshangabad road,mahendra greenwoods,apartment,3.0,1100.0,4.0,6.0,2.0,2.0,,resale,semi-furnished,unknown,unknown,garden/park,3100000.0,3895108.6244450742,795108.6244450742
+aurangabad,kanchanvadi,township sainik vihar,apartment,2.0,850.0,2.0,5.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,2000000.0,3339728.586766714,1339728.5867667142
+kanpur,gumti - 5,unknown,apartment,2.0,450.0,1.0,3.0,1.0,1.0,,resale,semi-furnished,unknown,freehold,unknown,5000000.0,1877807.688703267,3122192.311296733
+new-delhi,dwarka sector 11,rama apartment,apartment,3.0,1700.0,0.0,7.0,3.0,3.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, main road",18000000.0,24170259.678844407,6170259.678844407
+pune,shankar kalat nagar,kalpataru splendour,apartment,3.0,1080.0,7.0,12.0,2.0,1.0,1.0,resale,semi-furnished,east,freehold,garden/park,11600000.0,10695255.887052067,904744.1129479334
+lucknow,kabir pur,excella kutumb,apartment,2.0,760.0,3.0,13.0,2.0,2.0,1.0,resale,unfurnished,east,freehold,"garden/park, main road",3800000.0,5225547.943501234,1425547.943501234
+patna,transport nagar,unknown,apartment,3.0,1200.0,1.0,3.0,2.0,1.0,,new property,unfurnished,unknown,unknown,unknown,4860000.0,6831800.817814095,1971800.817814095
+ahmedabad,vejalpur jivraj park,pratham residency,apartment,2.0,1200.0,7.0,7.0,2.0,1.0,,new property,semi-furnished,east,freehold,"pool, garden/park, main road",6000000.0,5428440.020490132,571559.9795098677
+goa,mapusa,zion square,apartment,2.0,1367.0166229209,4.0,4.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,8200000.0,7437489.427135977,762510.572864023
+kalyan,narayan darshan chs,unknown,apartment,1.0,550.0,2.0,4.0,1.0,,,resale,unfurnished,unknown,unknown,unknown,3500000.0,3077433.9054968157,422566.0945031843
+zirakpur,gazipur,bollywood esencia,apartment,3.0,1500.0,4.0,4.0,3.0,3.0,1.0,new property,unfurnished,north - east,freehold,"garden/park, pool, main road",5290000.0,6041054.476927543,751054.4769275431
+agra,khandari,friends apartments,apartment,3.0,1500.0,1.0,5.0,3.0,2.0,,resale,semi-furnished,north,freehold,"garden/park, main road",10000000.0,7522715.891756069,2477284.108243931
+badlapur,shirgaon,marathon nagariv,apartment,2.0,770.0,3.0,7.0,2.0,1.0,,resale,unfurnished,east,co-operative society,garden/park,3000000.0,4150049.6097757444,1150049.6097757444
+ghaziabad,siddhartha vihar nh 24,prateek grand city,apartment,2.0,644.0,26.0,26.0,2.0,4.0,1.0,new property,semi-furnished,east,freehold,"garden/park, pool, main road",5430000.0,6072156.61385333,642156.6138533298
+kolkata,maheshtala,hiland greens,apartment,2.0,712.0,13.0,14.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,2670000.0,2896099.3968551597,226099.39685515966
+hyderabad,shree homes harmony jubilee hills,unknown,apartment,3.0,1200.0,3.0,4.0,2.0,2.0,,resale,furnished,west,freehold,main road,13500000.0,8324230.023514731,5175769.976485269
+zirakpur,vip road,savitry greens,apartment,3.0,833.0,10.0,11.0,2.0,2.0,,new property,semi-furnished,east,freehold,garden/park,6900000.0,6265603.006352312,634396.9936476881
+faridabad,sector 78,unknown,apartment,3.0,1450.0,5.0,14.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,4300000.0,5708637.096906841,1408637.0969068408
+ahmedabad,north bopal,neelkanth orchid,apartment,2.0,1170.0,1.0,4.0,2.0,,1.0,resale,semi-furnished,north - east,freehold,garden/park,4500000.0,5792028.4469338115,1292028.4469338115
+mangalore,riverfront,unknown,apartment,2.0,1090.0,5.0,7.0,,,1.0,resale,unknown,east,freehold,"garden/park, main road",5000000.0,4935017.263824233,64982.736175767146
+nellore,sullurupeta,unknown,apartment,2.0,800.0,4.0,5.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,2200000.0,3103493.099548531,903493.0995485312
+raipur,mohba bazar,unknown,apartment,5.0,2700.0,5.0,8.0,5.0,,,resale,furnished,unknown,unknown,unknown,7200000.0,12962536.914056797,5762536.914056797
+ahmedabad,sughad,parshwanath atlantis park,apartment,1.0,774.0,2.0,3.0,1.0,,,resale,semi-furnished,unknown,unknown,unknown,2000000.0,2929235.840138164,929235.8401381639
+goa,arpora,unknown,apartment,2.0,1119.4466833368,2.0,4.0,2.0,2.0,2.0,new property,unfurnished,north - east,freehold,"garden/park, pool",13000000.0,10211402.151946329,2788597.8480536714
+surat,adajan,unknown,apartment,2.0,1031.0,6.0,7.0,2.0,2.0,,resale,unfurnished,south,freehold,main road,4200000.0,4232205.826662668,32205.826662668027
+vadodara,akota,pratham plaza,apartment,3.0,2189.0,,,3.0,,,new property,unfurnished,unknown,unknown,unknown,12600000.0,9385818.057452647,3214181.942547353
+kalyan,kalyan murbad road,unknown,apartment,2.0,744.0,12.0,27.0,2.0,3.0,,resale,unfurnished,unknown,unknown,unknown,7900000.0,8143391.468959493,243391.46895949263
+raipur,tatibandh,unknown,apartment,3.0,965.0,0.0,5.0,3.0,3.0,,resale,unfurnished,north,freehold,"garden/park, main road",3300000.0,4866134.600022807,1566134.6000228068
+new-delhi,sadh nagar palam,unknown,apartment,1.0,360.0,2.0,4.0,1.0,1.0,,resale,unfurnished,north - west,freehold,main road,1800000.0,2956646.7991387253,1156646.7991387253
+hyderabad,provident kenworth rajendranagar mandal,unknown,apartment,1.0,610.0,7.0,10.0,1.0,1.0,,resale,unfurnished,west,freehold,"garden/park, pool, main road",5500000.0,4456533.982789813,1043466.0172101874
+bangalore,godrej eternity kanakapura road,unknown,apartment,2.0,1000.0,0.0,3.0,2.0,3.0,1.0,resale,semi-furnished,west,freehold,garden/park,10500000.0,7684520.049055259,2815479.9509447413
+kalyan,yogidham,unknown,apartment,1.0,400.0,1.0,7.0,2.0,,,resale,unfurnished,unknown,co-operative society,unknown,3600000.0,3502667.155560825,97332.84443917498
+hyderabad,pearl residency kondapur,unknown,apartment,2.0,1335.0,2.0,5.0,2.0,2.0,,resale,semi-furnished,south - east,freehold,garden/park,15000000.0,8486934.844783492,6513065.155216508
+allahabad,kalyanidevi,unknown,apartment,4.0,2140.0,0.0,2.0,2.0,1.0,,resale,furnished,east,freehold,main road,12500000.0,17914857.468948998,5414857.468948998
+noida,gaur city 2 noida extension,unknown,apartment,4.0,1880.0,10.0,20.0,3.0,5.0,1.0,resale,semi-furnished,east,leasehold,garden/park,11200000.000000002,11869747.982880559,669747.982880557
+chandigarh,zirakpur,hollywood heights,apartment,3.0,1100.0,10.0,10.0,3.0,4.0,1.0,resale,semi-furnished,north - east,freehold,unknown,4900000.0,6526447.582537918,1626447.5825379184
+thane,balkum pada,unknown,apartment,1.0,400.0,1.0,8.0,1.0,,,resale,semi-furnished,unknown,unknown,unknown,3400000.0,3688424.449989492,288424.4499894921
+vadodara,sun pharma road,unknown,apartment,2.0,550.0,1.0,5.0,2.0,1.0,1.0,resale,semi-furnished,north - east,freehold,main road,2100000.0,2803412.903859163,703412.9038591632
+allahabad,jhalwa,unknown,apartment,2.0,710.0,3.0,11.0,2.0,2.0,,resale,semi-furnished,east,freehold,"main road, garden/park",5000000.0,5475518.146437997,475518.146437997
+gurgaon,sohna sector 36,signature global park 4 and 5,apartment,3.0,850.0,2.0,4.0,3.0,3.0,1.0,new property,semi-furnished,north - east,freehold,"pool, garden/park, main road",7000000.0,10531625.676845467,3531625.6768454667
+trivandrum,chenkottukonam,unknown,apartment,2.0,1000.0,0.0,3.0,2.0,,1.0,resale,semi-furnished,east,freehold,unknown,2950000.0,4609248.168363912,1659248.168363912
+greater-noida,sector-pi,eldeco citadel,apartment,3.0,1805.0,12.0,18.0,3.0,3.0,,resale,unfurnished,south -west,leasehold,main road,9000000.0,10252123.216721538,1252123.2167215385
+surat,dindoli,shubh vatika,apartment,2.0,1000.0,4.0,10.0,2.0,2.0,1.0,resale,unfurnished,north - east,freehold,"garden/park, main road",2650000.0,2182939.0816623843,467060.9183376157
+jodhpur,chaukhan,unknown,apartment,2.0,600.0,0.0,4.0,2.0,,,resale,furnished,unknown,unknown,unknown,2500000.0,2767553.7435439574,267553.74354395736
+jaipur,raja park,unknown,apartment,3.0,1600.0,2.0,5.0,3.0,3.0,,new property,furnished,unknown,unknown,unknown,8500000.0,10641082.657044612,2141082.657044612
+chennai,rich castle apartments prithvi pakkam,unknown,apartment,2.0,886.0,1.0,2.0,2.0,3.0,,resale,unfurnished,north - east,freehold,garden/park,4800000.0,6234936.303778916,1434936.3037789157
+pune,vishrantwadi airport road,nandan euphora,apartment,2.0,1164.0,8.0,11.0,2.0,2.0,,resale,semi-furnished,north,co-operative society,"garden/park, main road",10000000.0,11102357.834504189,1102357.834504189
+new-delhi,defence colony,unknown,apartment,3.0,2000.0,0.0,4.0,4.0,3.0,,resale,semi-furnished,north - east,freehold,garden/park,95000000.0,62705626.41240728,32294373.58759272
+bangalore,sm gardenia sorahunase,unknown,apartment,2.0,1095.0,4.0,4.0,2.0,1.0,,resale,semi-furnished,east,freehold,"pool, garden/park",6300000.0,6445097.895129386,145097.89512938634
+bhubaneswar,pahala,gulmohar court,apartment,3.0,1690.0,3.0,4.0,2.0,2.0,,new property,unfurnished,east,freehold,"garden/park, main road",8600000.0,10958049.694205942,2358049.6942059416
+new-delhi,chhattarpur enclave phase2,unknown,apartment,3.0,1125.0,1.0,5.0,3.0,2.0,,new property,semi-furnished,north - west,freehold,"main road, garden/park",6500000.0,14452195.001477825,7952195.0014778245
+gurgaon,sector 65,m3m golf estate,apartment,3.0,2672.0,9.0,40.0,4.0,3.0,2.0,new property,unfurnished,north - east,freehold,garden/park,55199999.99999999,49872608.52772181,5327391.472278185
+pune,kalyani nagar,nyati meadows,apartment,3.0,1050.0,0.0,7.0,3.0,2.0,,resale,furnished,east,freehold,"pool, garden/park, main road",19500000.0,18000863.89965373,1499136.100346271
+zirakpur,patiala road,unknown,apartment,2.0,829.0,3.0,12.0,2.0,3.0,1.0,new property,semi-furnished,east,freehold,"garden/park, main road",9700000.0,6202351.131353876,3497648.8686461244
+bangalore,kanakapura road,unknown,apartment,2.0,1050.0,2.0,4.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,45000000.0,5571486.55448906,39428513.44551094
+pune,hinjawadi,yashwin phase ii,apartment,2.0,780.0,14.0,22.0,2.0,2.0,1.0,resale,unfurnished,east,freehold,garden/park,8200000.0,6673800.838135577,1526199.1618644232
+mumbai,pirojshanagar,godrej the trees,apartment,4.0,1208.0,12.0,18.0,3.0,1.0,1.0,resale,semi-furnished,north - east,freehold,garden/park,58000000.0,52761625.52712993,5238374.472870067
+pune,moshi,unknown,apartment,2.0,894.0,7.0,7.0,2.0,2.0,,resale,unfurnished,east,leasehold,main road,3800000.0,6011510.957488211,2211510.957488211
+agra,vayu vihar,unknown,apartment,2.0,950.0,1.0,2.0,2.0,2.0,2.0,resale,semi-furnished,east,freehold,"garden/park, main road",2300000.0,3538077.3372708852,1238077.3372708852
+bhiwadi,alwar bypass road,thd garden,apartment,2.0,965.0,1.0,12.0,2.0,1.0,,new property,furnished,unknown,freehold,unknown,2510000.0,2495162.269798511,14837.730201488826
+hyderabad,magnas lakeview hitech city,unknown,apartment,3.0,1650.0,1.0,5.0,3.0,2.0,1.0,resale,semi-furnished,unknown,unknown,unknown,18000000.0,10564086.670389649,7435913.3296103515
+ahmedabad,shela,orchid sky,apartment,3.0,1472.0,7.0,14.0,3.0,1.0,2.0,resale,unfurnished,east,freehold,"garden/park, pool, main road",6210000.0,9938838.386329655,3728838.3863296546
+vadodara,vasna bhayli main road,prapti springs retreat 2,apartment,3.0,1752.0,9.0,10.0,2.0,,,resale,furnished,unknown,unknown,unknown,6000000.0,5967029.3536972115,32970.64630278852
+new-delhi,panchsheel vihar sheikh sarai,unknown,apartment,3.0,900.0,0.0,5.0,2.0,1.0,,resale,semi-furnished,north - east,power of attorney,"garden/park, main road",5500000.0,8469560.871029036,2969560.871029036
+pune,pimple saudagar pimpri chinchwad,nisarg nirmiti,apartment,2.0,900.0,1.0,7.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,6500000.0,6511856.545384695,11856.545384694822
+hyderabad,muppa akshaja crown narsingi outer ring road,unknown,apartment,3.0,1905.0,7.0,9.0,3.0,,,resale,unfurnished,unknown,unknown,unknown,14200000.0,12706919.829449067,1493080.170550933
+pune,aundh,royal orchard,apartment,2.0,850.0,2.0,9.0,2.0,1.0,,resale,unfurnished,east,freehold,"garden/park, pool, main road",10000000.0,8901831.446791744,1098168.5532082561
+vapi,shyam residency chanod gate near gram panchayat,unknown,apartment,1.0,680.0,4.0,4.0,2.0,,,resale,unfurnished,unknown,unknown,unknown,880000.0000000001,1369929.0411745831,489929.041174583
+coimbatore,kalikkanaicken palayam,rr sai abhinav apartment,apartment,2.0,782.0,0.0,4.0,2.0,1.0,,resale,unfurnished,east,freehold,garden/park,3000000.0,4335540.142963276,1335540.1429632762
+hyderabad,suchitra,unknown,apartment,3.0,1220.0,0.0,5.0,3.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,6600000.0,8179402.10097338,1579402.1009733798
+chandigarh,dera bassi,steel strips towers,apartment,2.0,1219.0,,,2.0,,1.0,new property,furnished,unknown,unknown,unknown,5670000.0,5264489.360517382,405510.6394826183
+chennai,pallikaranai,unknown,apartment,1.0,560.0,2.0,2.0,1.0,,1.0,resale,unfurnished,unknown,freehold,unknown,2620000.0,3322690.0107927546,702690.0107927546
+hyderabad,provident kenworth rajendranagar mandal,unknown,apartment,3.0,918.0,8.0,10.0,2.0,1.0,1.0,new property,unfurnished,west,freehold,unknown,9500000.0,7884062.844930449,1615937.1550695514
+ghaziabad,sain vihar,paramount symphony,apartment,3.0,1700.0,8.0,20.0,3.0,3.0,1.0,resale,semi-furnished,north - east,freehold,"garden/park, pool, main road",7200000.0,5525608.177932341,1674391.8220676593
+ahmedabad,naranpura,unknown,apartment,2.0,1093.0,5.0,5.0,2.0,2.0,,resale,semi-furnished,unknown,unknown,unknown,4850000.0,5683419.294957103,833419.2949571032
+chandigarh,zirakpur,beliston avenue,apartment,3.0,1200.0,3.0,7.0,3.0,2.0,1.0,new property,semi-furnished,east,freehold,"garden/park, main road",7900000.0,6942770.502680787,957229.4973192131
+greater-noida,pari chowk,omaxe nri city township,apartment,5.0,3070.0,8.0,9.0,5.0,4.0,1.0,new property,semi-furnished,south - east,freehold,"garden/park, pool",14500000.0,26796483.46542571,12296483.465425711
+new-delhi,dwaraka more,unknown,apartment,3.0,900.0,1.0,4.0,2.0,2.0,1.0,new property,semi-furnished,east,freehold,main road,4700000.0,7915450.364378415,3215450.364378415
+gurgaon,mayfield garden sector 51,today blossoms ii,apartment,3.0,1400.0,2.0,3.0,3.0,2.0,2.0,resale,semi-furnished,south - east,freehold,unknown,14000000.0,18077499.137589756,4077499.1375897564
+new-delhi,jangpura extension jangpura,unknown,apartment,3.0,1450.0,0.0,5.0,3.0,3.0,1.0,resale,unfurnished,north,freehold,"garden/park, main road",45000000.0,28547833.252858866,16452166.747141134
+ahmedabad,maninagar,unknown,apartment,3.0,961.0,3.0,5.0,3.0,2.0,2.0,new property,unfurnished,east,freehold,main road,9500000.0,9154134.574150676,345865.4258493241
+ahmedabad,navrangpura,unknown,apartment,3.0,2061.0,0.0,,4.0,,1.0,resale,furnished,unknown,unknown,unknown,12500000.0,17777710.570505578,5277710.570505578
+greater-noida,sector 1 greater noida west,antalya heights,apartment,2.0,1200.0,2.0,4.0,2.0,1.0,1.0,new property,semi-furnished,north - east,freehold,main road,3150000.0,2446048.6035235147,703951.3964764853
+visakhapatnam,madhurawada,unknown,apartment,3.0,1350.0,4.0,5.0,3.0,,,resale,furnished,unknown,unknown,unknown,5500000.0,7853581.172306035,2353581.1723060347
+thane,vartak nagar,unknown,apartment,2.0,480.0,4.0,23.0,2.0,,1.0,resale,semi-furnished,east,freehold,garden/park,9600000.0,7066589.170077427,2533410.8299225727
+surat,amroli,unknown,apartment,2.0,850.0,4.0,4.0,2.0,1.0,1.0,resale,furnished,unknown,freehold,"garden/park, main road",3000000.0,2814503.197805989,185496.80219401093
+bangalore,vijetha elysium whitefield,unknown,apartment,2.0,1150.0,2.0,5.0,2.0,2.0,1.0,resale,unfurnished,north,freehold,garden/park,6200000.0,7997138.664943541,1797138.6649435414
+dehradun,unknown,panache heights,apartment,2.0,1042.0,6.0,7.0,2.0,,,resale,semi-furnished,unknown,unknown,unknown,5700000.0,4761492.3762350455,938507.6237649545
+bangalore,pyramid bilberry thanisandra main road,unknown,apartment,3.0,1489.0,,,3.0,,,new property,unfurnished,unknown,unknown,unknown,6700000.0,7769521.168954932,1069521.1689549321
+gurgaon,mehrauli gurgaon road,garden estate,apartment,3.0,1600.0,2.0,4.0,3.0,2.0,1.0,resale,unfurnished,north - east,freehold,"garden/park, pool, main road",27500000.0,20044343.48141666,7455656.518583339
+zirakpur,patiala road,trishla city,apartment,2.0,930.0,7.0,10.0,2.0,2.0,1.0,resale,semi-furnished,north,freehold,main road,5290000.0,5237665.199359283,52334.80064071715
+ahmedabad,vastral,unknown,apartment,3.0,976.0,2.0,7.0,3.0,2.0,,resale,unfurnished,east,freehold,unknown,6500000.0,5566967.061755235,933032.9382447647

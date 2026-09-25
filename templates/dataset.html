@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Dataset & EDA{% endblock %}
+{% block content %}
+<section class="page-hero compact"><div class="container py-5"><div class="page-heading-row"><span class="page-icon"><i class="bi bi-database-fill"></i></span><div><h1>Dataset & Exploratory Data Analysis</h1><p>Understand the public housing dataset and the transformations applied before model training.</p></div></div></div></section>
+<section class="container pb-5">
+  <div class="row g-4">
+    <div class="col-lg-7"><div class="content-card h-100">
+      <div class="card-title-row"><i class="bi bi-database-check"></i><h3>Dataset Overview</h3></div>
+      <div class="dataset-kv">
+        <div><span>Dataset Name</span><strong>{{ metadata.dataset.name }}</strong></div>
+        <div><span>Source</span><strong>Kaggle · Public Dataset</strong></div>
+        <div><span>Raw Records</span><strong>{{ "{:,}".format(metadata.dataset.raw_rows) }}</strong></div>
+        <div><span>Original Columns</span><strong>{{ metadata.dataset.raw_columns }}</strong></div>
+        <div><span>Clean Modeling Rows</span><strong>{{ "{:,}".format(metadata.dataset.clean_rows) }}</strong></div>
+        <div><span>Locations</span><strong>{{ metadata.dataset.locations }}</strong></div>
+        <div><span>Target</span><strong>Amount(in rupees) → Price in INR</strong></div>
+      </div>
+      <a href="{{ metadata.dataset.url }}" target="_blank" class="btn btn-outline-primary mt-3">Open Dataset Source <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+    </div></div>
+    <div class="col-lg-5"><div class="content-card h-100">
+      <div class="card-title-row"><i class="bi bi-broom-fill"></i><h3>Key Cleaning Decisions</h3></div>
+      <ul class="clean-list">
+        <li>Converted <code>Lac</code> and <code>Cr</code> prices to numeric INR.</li>
+        <li>Converted sqft, sqyrd, sqm and supported area units into square feet.</li>
+        <li>Used Carpet Area first and Super Area as fallback.</li>
+        <li>Extracted BHK/property type from Title.</li>
+        <li>Derived locality/area text from Title and retained Society/Project when available.</li>
+        <li>Split Floor into current and total floors.</li>
+        <li>Removed invalid/extreme records and duplicate-like model rows.</li>
+        <li>Excluded price-per-sq-ft from input to avoid circular target leakage.</li>
+      </ul>
+    </div></div>
+  </div>
+
+  <div class="row g-4 mt-1">
+    <div class="col-lg-6"><div class="content-card h-100"><h3>Price Distribution</h3><img class="analysis-img" src="{{ url_for('static', filename='images/eda_price_distribution.png') }}" alt="Price distribution"><p class="small text-secondary mt-2">The raw target is strongly right-skewed, which is common in real-estate datasets.</p></div></div>
+    <div class="col-lg-6"><div class="content-card h-100"><h3>Top Locations</h3><img class="analysis-img" src="{{ url_for('static', filename='images/eda_top_locations.png') }}" alt="Top locations"><p class="small text-secondary mt-2">Location is retained as an important categorical feature because housing prices vary strongly across cities.</p></div></div>
+    <div class="col-lg-12"><div class="content-card"><h3>Area vs Price</h3><img class="analysis-img wide-chart" src="{{ url_for('static', filename='images/eda_area_vs_price.png') }}" alt="Area vs price"><p class="small text-secondary mt-2">Larger area generally increases price, but location and property configuration create substantial variation.</p></div></div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Prediction Result{% endblock %}
+{% block content %}
+<section class="container py-5">
+  <div class="result-wrap result-reveal">
+    <div class="result-title"><span><i class="bi bi-check-lg"></i></span><div><h1>Prediction Result</h1><p>Estimated total property price based on the submitted features.</p></div></div>
+    <div class="price-result-card">
+      <div class="price-icon"><i class="bi bi-house-up-fill"></i></div>
+      <div class="flex-grow-1">
+        <span>Estimated House Price</span>
+        <h2>{{ predicted_price|compact_inr }}</h2>
+        <p class="mb-0">Exact model output: <strong>{{ predicted_price|inr }}</strong></p><div class="result-confidence-note mt-2"><i class="bi bi-info-circle me-1"></i>Model test R²: {{ (metadata.test_metrics.R2*100)|round(1) }}%. This is an ML estimate, not a certified valuation.</div>
+      </div>
+      <div class="result-metric"><i class="bi bi-graph-up"></i><strong>{{ (metadata.test_metrics.R2*100)|round(1) }}%</strong><small>Test R²</small></div>
+    </div>
+
+    {% if warnings %}
+    <div class="alert alert-warning rounded-4 mt-4"><strong>Input reliability notice:</strong><ul class="mb-0 mt-2">{% for w in warnings %}<li>{{ w }}</li>{% endfor %}</ul></div>
+    {% endif %}
+
+    <div class="row g-4 mt-1">
+      <div class="col-lg-8">
+        <div class="content-card h-100">
+          <div class="card-title-row"><i class="bi bi-house-door-fill"></i><h3>Submitted Property Details</h3></div>
+          <div class="detail-grid">{% for label, value in details.items() %}<div><span>{{ label }}</span><strong>{{ value }}</strong></div>{% endfor %}</div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content-card h-100 quote-card">
+          <i class="bi bi-quote"></i>
+          <p>This estimate is generated from patterns learned from public real-estate listings.</p>
+          <small>Actual market price may differ because of locality, property condition, amenities and market timing.</small>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4 d-flex justify-content-center gap-3 flex-wrap">
+      <a class="btn btn-primary px-4" href="{{ url_for('predict') }}"><i class="bi bi-arrow-repeat me-2"></i>Predict Another</a>
+      <a class="btn btn-outline-primary px-4" href="{{ url_for('home') }}"><i class="bi bi-house-door me-2"></i>Back to Home</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

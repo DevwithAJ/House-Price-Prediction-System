@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Model Information{% endblock %}
+{% block content %}
+<section class="page-hero compact"><div class="container py-5"><div class="page-heading-row"><span class="page-icon"><i class="bi bi-bar-chart-line-fill"></i></span><div><h1>Model Information</h1><p>Compare the regression algorithms used and understand why the final model was selected.</p></div></div></div></section>
+<section class="container pb-5">
+  <div class="row g-4">
+    <div class="col-lg-8">
+      <div class="content-card">
+        <div class="card-title-row"><i class="bi bi-table"></i><h3>Validation Performance Comparison</h3></div>
+        <div class="table-responsive">
+          <table class="table model-table align-middle">
+            <thead><tr><th>Model</th><th>MAE</th><th>RMSE</th><th>R²</th></tr></thead>
+            <tbody>
+            {% for row in metadata.candidate_models %}
+            <tr class="{% if row.Model == metadata.best_model %}best-row{% endif %}">
+              <td><strong>{{ row.Model }}</strong>{% if row.Model == metadata.best_model %}<span class="badge bg-success ms-2">Best</span>{% endif %}</td>
+              <td>{{ row.MAE|compact_inr }}</td><td>{{ row.RMSE|compact_inr }}</td><td>{{ "%.4f"|format(row.R2) }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        <div class="winner-box"><i class="bi bi-trophy-fill"></i><div><strong>Selected Model: {{ metadata.best_model }}</strong><p>Selected using the lowest validation RMSE, then refitted on train + validation data and evaluated once on the held-out test set.</p></div></div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="content-card h-100">
+        <div class="card-title-row"><i class="bi bi-gear-fill"></i><h3>Final Test Metrics</h3></div>
+        <div class="metric-stack">
+          <div><span>MAE</span><strong>{{ metadata.test_metrics.MAE|compact_inr }}</strong></div>
+          <div><span>RMSE</span><strong>{{ metadata.test_metrics.RMSE|compact_inr }}</strong></div>
+          <div><span>R² Score</span><strong>{{ "%.4f"|format(metadata.test_metrics.R2) }}</strong></div>
+          <div><span>Evaluation Design</span><strong class="small">70% Train · 15% Validation · 15% Test</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content-card mt-4">
+    <div class="row align-items-center g-4"><div class="col-lg-6"><img class="analysis-img" src="{{ url_for('static', filename='images/model_comparison.png') }}" alt="Model comparison chart"></div><div class="col-lg-6"><h3>Why the selected model works well</h3><p>LightGBM combines nonlinear tree boosting with native categorical handling. In V2 it also uses locality and society information without using price-derived leakage features.</p><ul class="clean-list"><li>Handles nonlinear interactions between area, BHK and floor configuration</li><li>Uses city, locality and society categories</li><li>Maps rare/unseen locality values safely during prediction</li><li>Achieves the lowest validation RMSE among the compared models</li></ul></div></div>
+  </div>
+</section>
+{% endblock %}

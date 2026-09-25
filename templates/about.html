@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}About Project{% endblock %}
+{% block content %}
+<section class="page-hero compact"><div class="container py-5"><div class="page-heading-row"><span class="page-icon"><i class="bi bi-info-circle-fill"></i></span><div><h1>About This Project</h1><p>An end-to-end Machine Learning project built around a real public house-price dataset.</p></div></div></div></section>
+<section class="container pb-5">
+  <div class="content-card">
+    <div class="card-title-row"><i class="bi bi-diagram-3-fill"></i><h3>Complete ML Lifecycle</h3></div>
+    <div class="lifecycle">
+      {% set steps = [
+        ('1','Data Collection','bi-database'),
+        ('2','Data Understanding','bi-file-earmark-text'),
+        ('3','Data Cleaning','bi-brush'),
+        ('4','EDA','bi-bar-chart'),
+        ('5','Preprocessing','bi-gear'),
+        ('6','Feature Engineering','bi-list-check'),
+        ('7','Model Training','bi-diagram-2'),
+        ('8','Model Comparison','bi-graph-up'),
+        ('9','Evaluation','bi-check-circle'),
+        ('10','Model Saving','bi-device-ssd'),
+        ('11','Application/API','bi-code-slash'),
+        ('12','Deployment','bi-cloud-upload')
+      ] %}
+      {% for n, title, icon in steps %}
+      <div><span><i class="bi {{ icon }}"></i></span><strong>{{ n }}. {{ title }}</strong></div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="row g-4 mt-1">
+    <div class="col-lg-7"><div class="content-card h-100">
+      <h3>Project Objective</h3>
+      <p>The system predicts total property price using cleaned and engineered features derived from Indian real-estate listings. It demonstrates how messy public data is transformed into a reproducible machine-learning and deployment workflow.</p>
+      <h4 class="h6 mt-4">Key academic strengths</h4>
+      <ul class="clean-list"><li>Genuine public dataset with documented source URL</li><li>Explicit leakage prevention</li><li>Train/validation/test model selection design</li><li>At least three regression models compared</li><li>Saved model + preprocessing pipeline</li><li>Web application and JSON prediction API</li><li>Render-ready deployment configuration</li></ul>
+    </div></div>
+    <div class="col-lg-5"><div class="content-card h-100">
+      <h3>Technologies Used</h3>
+      <div class="tech-grid"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>LightGBM</span><span>Matplotlib</span><span>Flask</span><span>HTML/CSS/JS</span><span>Bootstrap</span><span>Jupyter</span><span>Joblib</span></div>
+      <img class="about-logo mt-4" src="{{ url_for('static', filename='images/logo.png') }}" alt="House Price Prediction System">
+    </div></div>
+  </div>
+</section>
+{% endblock %}

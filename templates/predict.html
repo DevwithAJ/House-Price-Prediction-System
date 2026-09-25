@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% block title %}Predict House Price · House Price Prediction System{% endblock %}
+{% block content %}
+<section class="page-hero predict-page-hero">
+  <div class="container py-4 py-md-5 text-center">
+    <span class="page-icon"><i class="bi bi-house-gear"></i></span>
+    <h1>Predict House Price</h1>
+    <p>Enter the property details below. The saved preprocessing pipeline and {{ metadata.best_model }} model will estimate the total price.</p>
+    <div class="predict-trust-row mt-3">
+      <span><i class="bi bi-shield-check"></i> Validated inputs</span>
+      <span><i class="bi bi-cpu"></i> {{ metadata.best_model }}</span>
+      <span><i class="bi bi-graph-up-arrow"></i> {{ (metadata.test_metrics.R2 * 100)|round(1) }}% Test R²</span>
+    </div>
+  </div>
+</section>
+
+<section class="container prediction-section pb-5">
+  <div class="form-card mx-auto">
+    {% set f = form if form else {} %}
+    <form method="post" action="{{ url_for('predict') }}" id="predictionForm" novalidate>
+      <div class="row g-0">
+        <div class="col-lg-6 form-column">
+          <div class="form-section-title"><i class="bi bi-geo-alt-fill"></i><span>Location & Configuration</span></div>
+          <div class="row g-3">
+            <div class="col-12">
+              <label class="form-label" for="location">Location *</label>
+              <select class="form-select" id="location" name="location" required>
+                <option value="">Select location</option>
+                {% for location in metadata.locations %}
+                <option value="{{ location }}" {% if f.get('location') == location %}selected{% endif %}>{{ location|replace('-', ' ')|title }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="locality_hint">Locality / Area Name</label>
+              <input class="form-control" id="locality_hint" type="text" name="locality_hint" list="localitySuggestions" placeholder="e.g. Pokhran Road" value="{{ f.get('locality_hint', '') }}" autocomplete="off">
+              <datalist id="localitySuggestions">{% for v in metadata.top_localities %}<option value="{{ v }}">{% endfor %}</datalist>
+              <div class="form-text">Optional, but it can improve location-sensitive predictions.</div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="society">Society / Project Name</label>
+              <input class="form-control" id="society" type="text" name="society" list="societySuggestions" placeholder="e.g. Dosti Vihar" value="{{ f.get('society', '') }}" autocomplete="off">
+              <datalist id="societySuggestions">{% for v in metadata.top_societies %}<option value="{{ v }}">{% endfor %}</datalist>
+              <div class="form-text">Optional. Unseen societies are safely handled by the model pipeline.</div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="property_type">Property Type *</label>
+              {% set current_type = f.get('property_type','apartment') %}
+              <select class="form-select" id="property_type" name="property_type" required>
+                {% for v in metadata.categories.property_type %}
+                <option value="{{ v }}" {% if current_type == v %}selected{% endif %}>{{ v|title }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="bhk">Bedrooms (BHK) *</label>
+              <input class="form-control" id="bhk" type="number" name="bhk" min="1" max="10" step="1" required value="{{ f.get('bhk', 2) }}">
+              <div class="form-text">Observed range: 1–10 BHK</div>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="area_sqft">Area (sq.ft) *</label>
+              <div class="input-group"><span class="input-group-text"><i class="bi bi-bounding-box"></i></span><input class="form-control" id="area_sqft" type="number" name="area_sqft" min="150" max="15000" step="1" required value="{{ f.get('area_sqft', 1200) }}"></div>
+              <div class="form-text">Use the closest known property area. Training uses Carpet Area first and Super Area as fallback.</div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="bathrooms">Bathrooms</label>
+              <input class="form-control" id="bathrooms" type="number" name="bathrooms" min="1" max="10" step="1" value="{{ f.get('bathrooms', 2) }}">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="balconies">Balconies</label>
+              <input class="form-control" id="balconies" type="number" name="balconies" min="0" max="11" step="1" value="{{ f.get('balconies', 1) }}">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 form-column alt-column">
+          <div class="form-section-title"><i class="bi bi-buildings-fill"></i><span>Building & Additional Details</span></div>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="current_floor">Current Floor</label>
+              <input class="form-control" id="current_floor" type="number" name="current_floor" min="-2" max="100" step="1" value="{{ f.get('current_floor', 5) }}">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="total_floors">Total Floors</label>
+              <input class="form-control" id="total_floors" type="number" name="total_floors" min="0" max="100" step="1" value="{{ f.get('total_floors', 14) }}">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="transaction">Transaction Type</label>
+              {% set t = f.get('transaction','resale') %}
+              <select class="form-select" id="transaction" name="transaction">{% for v in metadata.categories.transaction %}<option value="{{ v }}" {% if t==v %}selected{% endif %}>{{ v|title }}</option>{% endfor %}</select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="furnishing">Furnishing</label>
+              {% set fur = f.get('furnishing','semi-furnished') %}
+              <select class="form-select" id="furnishing" name="furnishing">{% for v in metadata.categories.furnishing %}<option value="{{ v }}" {% if fur==v %}selected{% endif %}>{{ v|title }}</option>{% endfor %}</select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="facing">Facing</label>
+              {% set face = f.get('facing','east') %}
+              <select class="form-select" id="facing" name="facing">{% for v in metadata.categories.facing %}<option value="{{ v }}" {% if face==v %}selected{% endif %}>{{ v|title }}</option>{% endfor %}</select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="parking">Car Parking</label>
+              <input class="form-control" id="parking" type="number" name="parking" min="0" max="20" step="1" value="{{ f.get('parking', 1) }}">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="ownership">Ownership</label>
+              {% set own = f.get('ownership','freehold') %}
+              <select class="form-select" id="ownership" name="ownership">{% for v in metadata.categories.ownership %}<option value="{{ v }}" {% if own==v %}selected{% endif %}>{{ v|title }}</option>{% endfor %}</select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="overlooking">Overlooking</label>
+              {% set over = f.get('overlooking','unknown') %}
+              <select class="form-select" id="overlooking" name="overlooking">{% for v in metadata.categories.overlooking %}<option value="{{ v }}" {% if over==v %}selected{% endif %}>{{ v|title }}</option>{% endfor %}</select>
+            </div>
+          </div>
+
+          <div class="prediction-tip mt-4">
+            <i class="bi bi-lightbulb-fill"></i>
+            <div><strong>For a better estimate</strong><span>Add locality/society when known and keep area, BHK and floor values as close to the real property as possible.</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button class="btn btn-primary btn-lg predict-submit" type="submit" id="predictButton"><i class="bi bi-stars me-2"></i><span>Predict House Price</span></button>
+        <button class="btn btn-light btn-lg" type="button" id="resetForm"><i class="bi bi-arrow-clockwise me-2"></i>Reset Demo</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- FinanceAI-style prediction loading overlay -->
+<div class="prediction-loader" id="predictionLoader" aria-hidden="true" role="status" aria-live="polite">
+  <div class="loader-backdrop"></div>
+  <div class="loader-card">
+    <div class="loader-brand">
+      <img src="{{ url_for('static', filename='images/logo.png') }}" alt="House Price Prediction System">
+    </div>
+    <div class="ai-orbit" aria-hidden="true">
+      <span class="orbit orbit-a"></span>
+      <span class="orbit orbit-b"></span>
+      <span class="orbit-core"><i class="bi bi-house-heart-fill"></i></span>
+    </div>
+    <span class="loader-kicker">AI PROPERTY ANALYSIS</span>
+    <h2>Predicting your house price…</h2>
+    <p id="loadingStatus">Validating property details</p>
+    <div class="loader-progress"><span id="loadingBar"></span></div>
+    <div class="loader-steps">
+      <span class="active"><i class="bi bi-check-circle-fill"></i> Validate</span>
+      <span><i class="bi bi-stars"></i> Engineer features</span>
+      <span><i class="bi bi-cpu-fill"></i> Run model</span>
+      <span><i class="bi bi-house-check-fill"></i> Prepare result</span>
+    </div>
+    <small>Please wait — this normally takes only a moment.</small>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}House Price Prediction System{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="hero-glow hero-glow-a"></div><div class="hero-glow hero-glow-b"></div>
+  <div class="container py-5 py-lg-6">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <span class="hero-kicker"><i class="bi bi-stars"></i> Machine Learning Powered Real Estate Insights</span>
+        <h1 class="hero-title mt-4">House Price<br><span>Prediction System</span></h1>
+        <p class="hero-copy">Predict house prices using real-world Indian property listings, location-aware features, engineered inputs and a trained regression pipeline.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="{{ url_for('predict') }}" class="btn btn-primary btn-lg px-4"><i class="bi bi-arrow-right me-2"></i>Predict House Price</a>
+          <a href="{{ url_for('dataset') }}" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-bar-chart-line me-2"></i>Explore Analysis</a>
+        </div>
+        <div class="hero-feature-row mt-4">
+          <div><i class="bi bi-lightning-charge-fill"></i><span><strong>Data-driven</strong><small>Real listing patterns</small></span></div>
+          <div><i class="bi bi-geo-alt-fill"></i><span><strong>Location-aware</strong><small>81 locations</small></span></div>
+          <div><i class="bi bi-shield-check"></i><span><strong>Validated</strong><small>Held-out testing</small></span></div>
+          <div><i class="bi bi-gear-fill"></i><span><strong>Deployment Ready</strong><small>Flask + API</small></span></div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="hero-visual">
+          <div class="house-shell">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="House Price Prediction System logo">
+            <div class="visual-label">SMART PRICE ESTIMATION</div>
+            <div class="visual-price">
+    {{ (metadata.test_metrics.R2 * 100)|round(2) }}%
+</div>
+            <p>Test-set variance explained by the final regression model.</p>
+          </div>
+          <div class="floating-card card-one"><i class="bi bi-geo-alt"></i><strong>81</strong><span>locations</span></div>
+          <div class="floating-card card-two"><i class="bi bi-database"></i><strong>{{ "{:,}".format(metadata.dataset.raw_rows) }}</strong><span>raw records</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-ribbon mt-5">
+      <div><i class="bi bi-database-fill"></i><span><strong>{{ "{:,}".format(metadata.dataset.raw_rows) }}</strong><small>Raw Property Records</small></span></div>
+      <div><i class="bi bi-grid-3x3-gap-fill"></i><span><strong>{{ metadata.dataset.raw_columns }}</strong><small>Original Columns</small></span></div>
+      <div><i class="bi bi-geo-alt-fill"></i><span><strong>{{ metadata.dataset.locations }}</strong><small>Locations</small></span></div>
+      <div><i class="bi bi-diagram-3-fill"></i><span><strong>3</strong><small>Regression Models</small></span></div>
+      <div><i class="bi bi-award-fill"></i><span><strong>{{ metadata.best_model }}</strong><small>Selected Model</small></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="container py-5">
+  <div class="section-heading text-center mb-4">
+    <span>PROJECT HIGHLIGHTS</span>
+    <h2>A complete ML lifecycle, not just a prediction form</h2>
+    <p>The project cleans a messy real-estate dataset, engineers usable features, compares regression models and deploys the selected pipeline.</p>
+  </div>
+  <div class="row g-4">
+    <div class="col-md-6 col-xl-3"><div class="feature-card"><i class="bi bi-database-check"></i><h3>Real Public Dataset</h3><p>187k+ property listings with location, area, floor, furnishing and more.</p></div></div>
+    <div class="col-md-6 col-xl-3"><div class="feature-card"><i class="bi bi-brush"></i><h3>Proper Cleaning</h3><p>Lac/Cr parsing, area unit conversion, missing values, duplicates and outlier handling.</p></div></div>
+    <div class="col-md-6 col-xl-3"><div class="feature-card"><i class="bi bi-graph-up-arrow"></i><h3>Model Comparison</h3><p>Linear Regression, Random Forest and Histogram Gradient Boosting evaluated consistently.</p></div></div>
+    <div class="col-md-6 col-xl-3"><div class="feature-card"><i class="bi bi-cloud-check"></i><h3>Deployable App</h3><p>Flask UI, JSON API, health endpoint and Render/Gunicorn deployment files.</p></div></div>
+  </div>
+</section>
+{% endblock %}
