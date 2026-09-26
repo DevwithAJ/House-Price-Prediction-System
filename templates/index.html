@@ -25,9 +25,7 @@
           <div class="house-shell">
             <img src="{{ url_for('static', filename='images/logo.png') }}" alt="House Price Prediction System logo">
             <div class="visual-label">SMART PRICE ESTIMATION</div>
-            <div class="visual-price">
-    {{ (metadata.test_metrics.R2 * 100)|round(2) }}%
-</div>
+            <div class="visual-price"> {{ (metadata.test_metrics.R2 * 100)|round(2) }}%</div>
             <p>Test-set variance explained by the final regression model.</p>
           </div>
           <div class="floating-card card-one"><i class="bi bi-geo-alt"></i><strong>81</strong><span>locations</span></div>

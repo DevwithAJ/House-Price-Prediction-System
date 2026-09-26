@@ -10,7 +10,7 @@
 .btn{border-radius:12px;font-weight:700}.btn-primary{background:linear-gradient(135deg,var(--blue),#2b8eff);border:none;box-shadow:0 10px 25px rgba(25,118,255,.22)}.btn-primary:hover{background:#0f63dd}
 .py-lg-6{padding-top:5rem!important;padding-bottom:5rem!important}
 
-.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#081b34 0%,#0e2d55 62%,#144476 100%);color:#fff}
+.hero{position:relative;overflow:hidden;background:linear-gradient(90deg,rgba(4,20,40,.96) 0%,rgba(8,36,70,.90) 46%,rgba(8,38,73,.72) 100%),url("../images/hero-house-bg.webp") center/cover no-repeat;color:#fff}
 .hero:after{content:"";position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.02) 1px,transparent 1px);background-size:38px 38px;pointer-events:none}
 .hero .container{position:relative;z-index:2}.hero-glow{position:absolute;border-radius:50%;filter:blur(20px);opacity:.35}.hero-glow-a{width:430px;height:430px;background:#0d7cff;top:-190px;right:-80px}.hero-glow-b{width:320px;height:320px;background:#18c6d2;bottom:-180px;left:-120px}
 .hero-kicker{display:inline-flex;align-items:center;gap:.5rem;padding:.55rem .85rem;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.08);border-radius:999px;font-size:.82rem;font-weight:700}
@@ -21,6 +21,7 @@
     font-size: 1.5rem;
     font-weight: 700;
 }
+
 .house-shell p{color:#b9cee5;margin:0}.floating-card{position:absolute;background:#fff;color:var(--ink);border-radius:18px;padding:.9rem 1rem;box-shadow:0 20px 40px rgba(0,0,0,.22);display:grid;grid-template-columns:auto auto;gap:0 .6rem;align-items:center}.floating-card i{grid-row:1/3;color:var(--blue);font-size:1.4rem}.floating-card strong{font-size:1rem}.floating-card span{font-size:.7rem;color:var(--muted)}.card-one{left:0;top:24px}.card-two{right:0;bottom:38px}
 .stats-ribbon{background:#fff;color:var(--ink);display:grid;grid-template-columns:repeat(5,1fr);border-radius:20px;overflow:hidden;box-shadow:0 16px 45px rgba(0,0,0,.18)}.stats-ribbon>div{padding:1.1rem;display:flex;align-items:center;gap:.8rem;border-right:1px solid var(--line)}.stats-ribbon>div:last-child{border-right:none}.stats-ribbon i{color:var(--blue);font-size:1.5rem}.stats-ribbon strong,.stats-ribbon small{display:block}.stats-ribbon strong{font-size:1rem}.stats-ribbon small{font-size:.72rem;color:var(--muted)}
 
@@ -41,7 +42,7 @@ code{color:#145fc0}
 
 @media(max-width:1199px){.stats-ribbon{grid-template-columns:repeat(3,1fr)}.stats-ribbon>div{border-bottom:1px solid var(--line)}.lifecycle{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:991px){.hero-visual{min-height:330px}.form-column{padding:1.5rem}.alt-column{border-left:none;border-top:1px solid var(--line)}.stats-ribbon{grid-template-columns:repeat(2,1fr)}.lifecycle{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:767px){.hero-title{font-size:3.2rem}.card-one{left:10px}.card-two{right:10px}.stats-ribbon{grid-template-columns:1fr}.hero-feature-row{display:grid;grid-template-columns:repeat(2,1fr)}.detail-grid,.dataset-kv{grid-template-columns:1fr}.price-result-card{align-items:flex-start;flex-wrap:wrap}.result-metric{margin-left:0}.lifecycle{grid-template-columns:repeat(2,1fr)}.footer-bottom{flex-direction:column}.page-heading-row{align-items:flex-start}}
+@media(max-width:767px){.hero{background-position:66% center;background-image:linear-gradient(90deg,rgba(4,20,40,.97) 0%,rgba(8,36,70,.93) 62%,rgba(8,38,73,.82) 100%),url("../images/hero-house-bg.webp")}.hero-title{font-size:3.2rem}.card-one{left:10px}.card-two{right:10px}.stats-ribbon{grid-template-columns:1fr}.hero-feature-row{display:grid;grid-template-columns:repeat(2,1fr)}.detail-grid,.dataset-kv{grid-template-columns:1fr}.price-result-card{align-items:flex-start;flex-wrap:wrap}.result-metric{margin-left:0}.lifecycle{grid-template-columns:repeat(2,1fr)}.footer-bottom{flex-direction:column}.page-heading-row{align-items:flex-start}}
 @media(max-width:480px){.hero-feature-row{grid-template-columns:1fr}.house-shell{padding:1.5rem}.house-shell img{width:130px;height:130px}.floating-card{position:static;margin-top:.8rem}.hero-visual{display:block;min-height:auto}.stats-ribbon{margin-top:2rem!important}.form-actions{flex-direction:column}.lifecycle{grid-template-columns:1fr}}
 
 /* ===== Final deploy UX: prediction loader + responsive polish ===== */
